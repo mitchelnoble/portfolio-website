@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
-export default function ProjectDetail() {
+export default function ProjectDetail(props) {
+  const { project } = props;
+
   return (
-    <div>
-      
+    <div className="projects-container">
+      <h1>Play Price PC</h1>
+
+      <h1>Practice Practice Practice</h1>
+
+      <h1>Get Lost</h1>
+
+      <h1>Protozoa Records</h1>
     </div>
-  )
+  );
 }
