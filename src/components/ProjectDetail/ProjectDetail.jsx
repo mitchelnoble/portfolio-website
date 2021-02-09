@@ -1,8 +1,6 @@
 import React from "react";
 
-export default function ProjectDetail(props) {
-  const { project } = props;
-
+export default function ProjectDetail() {
   return (
     <div className="projects-container">
       <h1>Play Price PC</h1>
