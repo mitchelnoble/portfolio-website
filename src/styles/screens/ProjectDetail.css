@@ -41,6 +41,11 @@
   color: black;
 }
 
+.pr-link{
+  text-decoration: none;
+  color: black;
+}
+
 .pr-project{
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);

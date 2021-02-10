@@ -52,7 +52,7 @@ export default function ProjectDetail() {
       </a>
 
       <a
-        href="protozoa-records.netlify.app"
+        href="https://protozoa-records.netlify.app"
         target="blank"
         className="pr-link"
       >
