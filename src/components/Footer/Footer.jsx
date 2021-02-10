@@ -9,10 +9,12 @@ import '../../styles/components/Footer.css'
 
 export default function Footer() {
   return (
+    <>
     <div className="footer-container">
       <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
       <FontAwesomeIcon className="github-icon" icon={faGithubSquare} />
       <FontAwesomeIcon className="email-icon" icon={faEnvelopeSquare} />
-    </div>
+      </div>
+      </>
   )
 }

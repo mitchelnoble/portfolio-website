@@ -1,16 +1,23 @@
 .footer-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-areas: "F1 F2 F3 F4 F5";
+  justify-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
 
 
 .email-icon{
- font-size: 5em; 
+ font-size: 5em;
+ grid-area: F2; 
 }
 .github-icon{
- font-size: 5em; 
+ font-size: 5em;
+ grid-area: F3; 
 }
 .linkedin-icon{
- font-size: 5em; 
+ font-size: 5em;
+ grid-area: F4; 
 }
