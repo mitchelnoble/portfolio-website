@@ -9,7 +9,6 @@ export default function Header() {
         <h1 className="my-first-name">
           M I T C H E L
           </h1>
-
         <h1 className="my-last-name">
           N O B L E
           </h1>

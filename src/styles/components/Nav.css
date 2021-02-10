@@ -1,10 +1,11 @@
 .nav-container {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: grid;
-  grid-template-areas: 
-  "A1 A2 A3 A4 A5";
+  grid-template-areas: "A1 A2 A3 A4 A5";
   text-align: center;
   border-bottom: 1px solid grey;
+  box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
+  background-image: linear-gradient(to bottom, rgba(190, 190, 190, 0.1), white);
 }
 
 .about-link {
