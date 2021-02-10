@@ -5,19 +5,26 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  border-top: 1px solid gray;
+  padding: 0.5em;
+  box-shadow: -3px -5px 6px rgba(50, 50, 50, 0.33);
+  background-image: linear-gradient(to top, rgba(175, 175, 175, 0.3), white);
 }
 
 
 
 .email-icon{
- font-size: 5em;
- grid-area: F2; 
+ font-size: 4em;
+ grid-area: F2;
+ background-color: solid white; 
 }
 .github-icon{
- font-size: 5em;
+ font-size: 4em;
  grid-area: F3; 
+ background-color: solid white; 
 }
 .linkedin-icon{
- font-size: 5em;
+ font-size: 4em;
  grid-area: F4; 
+ background-color: solid white; 
 }
