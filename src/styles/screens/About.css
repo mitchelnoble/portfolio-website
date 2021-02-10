@@ -20,6 +20,7 @@
   display: flex;
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
+  text-shadow: rgba(210,210,210,0.6) 1.5px 5px 3px;
 }
 
 .text-container{
