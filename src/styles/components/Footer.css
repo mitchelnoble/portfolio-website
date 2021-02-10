@@ -15,15 +15,25 @@
 
 .email-icon{
  font-size: 3em;
- grid-area: F2;
+ color: darkblue
+}
+.email-icon-link{
+  grid-area: F2;
 }
 .github-icon{
  font-size: 3em;
- grid-area: F3; 
  color: teal; 
 }
+
+.github-icon-link{
+  grid-area: F3; 
+}
+
 .linkedin-icon{
  font-size: 3em;
- grid-area: F4; 
  color: blue; 
+}
+
+.linkedin-icon-link{
+  grid-area: F4; 
 }

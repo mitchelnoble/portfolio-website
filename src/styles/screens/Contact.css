@@ -1,0 +1,20 @@
+.contact-form {
+  margin-top: 10em;
+  display: inline flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.contact-me-title{
+  font-family: 'Montserrat', 'sans';
+}
+
+.information-container{
+  margin: 5em auto auto auto;
+  height: 25em;
+  width: 55%;
+  font-family: 'Roboto', 'sans';
+  text-align: left;
+  
+
+}
