@@ -14,17 +14,16 @@
 
 
 .email-icon{
- font-size: 4em;
+ font-size: 3em;
  grid-area: F2;
- background-color: solid white;
 }
 .github-icon{
- font-size: 4em;
+ font-size: 3em;
  grid-area: F3; 
- background-color: solid white; 
+ color: teal; 
 }
 .linkedin-icon{
- font-size: 4em;
+ font-size: 3em;
  grid-area: F4; 
- background-color: solid white; 
+ color: blue; 
 }
