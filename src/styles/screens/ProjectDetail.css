@@ -1,80 +1,103 @@
 .projects-container {
   margin-top: 1.5em;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: bolder;
   display: grid;
-  grid-template-areas: 
-  "A1 A2" 
-  "B1 B2"
-  ; 
+  grid-template-areas:
+    "A1 A2"
+    "B1 B2";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1em;
 }
 
-.pppc-project{
+.pppc-project {
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   padding: 2em;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
+  height: 35vh;
 }
 
-.ppp-project{
+.ppp-project {
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   padding: 2em;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
+  height: 35vh;
 }
 
-.gl-project{
+.gl-project {
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   padding: 2em;
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
+  height: 35vh;
 }
 
-.gl-link{
+.gl-link {
   text-decoration: none;
   color: black;
 }
 
-.pr-link{
+.pr-link {
   text-decoration: none;
   color: black;
 }
 
-.pr-project{
+.pr-project {
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   padding: 2em;
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
+  height: 35vh;
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
