@@ -8,8 +8,10 @@ export default function Contact() {
       <h1 className="contact-me-title">Contact Me</h1>
 
       <div className="information-container">
-      <p>Email: MitchelParkerNoble@gmail.com</p>
-      <p>LinkedIn: https://www.linkedin.com/in/mitchel-noble/ </p>  
+        <p>Email: MitchelParkerNoble@gmail.com</p>
+        <br />
+        <p>LinkedIn: https://www.linkedin.com/in/mitchel-noble/ </p>  
+        <br />
       <p>Github: https://github.com/mitchelnoble</p>
       </div>
       
