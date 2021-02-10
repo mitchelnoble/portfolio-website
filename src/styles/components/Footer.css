@@ -9,7 +9,7 @@
   padding: 0.5em;
   box-shadow: -3px -5px 6px rgba(50, 50, 50, 0.33);
   background-image: 
-  linear-gradient(to top, rgba(175, 175, 175, 1), white);
+  linear-gradient(to top, rgba(175, 175, 175, 1), white, white);
 }
 
 
@@ -20,6 +20,7 @@
 }
 .email-icon-link{
   grid-area: F2;
+
 }
 .github-icon{
  font-size: 3em;
@@ -27,7 +28,7 @@
 }
 
 .github-icon-link{
-  grid-area: F3; 
+  grid-area: F3;
 }
 
 .linkedin-icon{
