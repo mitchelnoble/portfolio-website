@@ -26,7 +26,7 @@ export default function ProjectDetail() {
         <h1>Practice Practice Practice</h1>
         <p>
           A React-based productivity application that emphasizes CRUD
-          functionality.
+          functionality. The app allows you to set a simple day-to-day schedule for various topics of your choice.
         </p>
       </div>
 
@@ -59,8 +59,8 @@ export default function ProjectDetail() {
         />
         <h1>Protozoa Records</h1>
         <p>
-          A full-stack, full CRUD webapplication developed withReact client-side
-          and Rubyon Rails server-side.
+          A full-stack, full CRUD web application developed with React client-side
+          and Ruby on Rails server-side.
         </p>
       </div>
     </div>
