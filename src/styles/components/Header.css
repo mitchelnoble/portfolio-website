@@ -1,0 +1,43 @@
+.name-link {
+  text-decoration: none;
+}
+
+.my-first-name {
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  color: white;
+  padding-top: 2rem;
+}
+
+.my-last-name {
+  font-family: 'Montserrat';
+  color: white;
+}
+
+.header-container {
+  margin: 0 auto;
+  height: 10em;
+  width:  100%;
+  background-color: black;
+  display: inline flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 300px;
+  max-width: 500px
+}
+
+.slide-right h1 {
+  animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+} */
