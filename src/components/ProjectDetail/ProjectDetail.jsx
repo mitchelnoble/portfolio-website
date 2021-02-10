@@ -51,6 +51,11 @@ export default function ProjectDetail() {
         </div>
       </a>
 
+      <a
+        href="protozoa-records.netlify.app"
+        target="blank"
+        className="pr-link"
+      >
       <div className="pr-project">
         <img
           src="https://i.imgur.com/HeqqlLfb.png"
@@ -60,9 +65,10 @@ export default function ProjectDetail() {
         <h1>Protozoa Records</h1>
         <p>
           A full-stack, full CRUD web application developed with React client-side
-          and Ruby on Rails server-side.
+          and Ruby on Rails server-side. Along with responsive styling, the site also features front-end and back-end Authentication. 
         </p>
-      </div>
+        </div>
+        </a>
     </div>
   );
 }
