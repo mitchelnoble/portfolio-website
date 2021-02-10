@@ -1,0 +1,11 @@
+.projects-container {
+
+  font-family: 'Roboto';
+  font-weight: bolder;
+  display: grid;
+  grid-template-areas: "P1 P2 P3 P4";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-self: center;
+  align-self: center;
+}

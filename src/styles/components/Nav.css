@@ -5,23 +5,27 @@
   text-align: center;
   border-bottom: 1px solid grey;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  background-image: linear-gradient(to bottom, rgba(190, 190, 190, 0.1), white);
+  background-image: linear-gradient(to bottom, rgba(190, 190, 190, 0.3), white);
 }
 
 .about-link {
   grid-area: A2;
   text-decoration: none;
   color: black;
+  border-right: 1px solid rgba(190, 190, 190, 0.5);
+  border-left: 1px solid rgba(190, 190, 190, 0.5);
 }
 
 .projects-link {
   grid-area: A3;
   text-decoration: none;
   color: black;
+  border-right: 1px solid rgba(190, 190, 190, 0.5);
 }
 
 .contact-link {
   grid-area: A4;
   text-decoration: none;
   color: black;
+  border-right: 1px solid rgba(190, 190, 190, 0.5);
 }
