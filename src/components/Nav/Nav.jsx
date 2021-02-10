@@ -7,6 +7,7 @@ export default function Nav() {
     <div className="nav-container">
       <Link to="/About" className="about-link">A B O U T </Link>
       <Link to="/ProjectDetail" className="projects-link">P R O J E C T S </Link>
+      <Link to="/Resume" className="resume-link">R E S U M E </Link>
       <Link to="/Contact" className="contact-link">C O N T A C T </Link>
     </div>
   )

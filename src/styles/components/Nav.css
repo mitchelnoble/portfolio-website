@@ -1,7 +1,7 @@
 .nav-container {
   font-family: "Montserrat";
   display: grid;
-  grid-template-areas: "A1 A2 A3 A4 A5";
+  grid-template-areas: "A1 A2 A3 A4 A5 A6";
   text-align: center;
   border-bottom: 1px solid grey;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
@@ -23,8 +23,15 @@
   border-right: 1px solid rgba(190, 190, 190, 0.5);
 }
 
-.contact-link {
+.resume-link {
   grid-area: A4;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid rgba(190, 190, 190, 0.5);
+}
+
+.contact-link {
+  grid-area: A5;
   text-decoration: none;
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
