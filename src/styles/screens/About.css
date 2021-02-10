@@ -11,11 +11,15 @@
   font-family: 'Montserrat';
   font-size: 3rem;
   text-shadow: 1.5px 7px 7px rgba(0,0,0,0.2);
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
 }
 
 .about-me-text{
   font-size: 2rem;
   display: flex;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
 }
 
 .text-container{
@@ -24,4 +28,29 @@
   align-self: center;
   text-align: center;
   font-family: 'Roboto' 'sans';
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }

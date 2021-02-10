@@ -6,7 +6,7 @@ export default function Landing() {
     <div className="landing-container">
       <p className="welcome">Welcome</p>
       <p className="greeting">I'm Mitchel</p>
-      <p className="thanks">Thank you for stopping by!</p>
+      <p className="thanks">Thank you for stopping by</p>
     </div>
   );
 }
