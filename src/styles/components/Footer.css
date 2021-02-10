@@ -1,12 +1,13 @@
 .footer-container{
+  margin-top: 0.5em;
   display: grid;
   grid-template-areas: "F1 F2 F3 F4 F5";
   justify-items: center;
-  position: fixed;
   bottom: 0;
   width: 100%;
   border-top: 1px solid gray;
-  padding: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   box-shadow: -3px -5px 6px rgba(50, 50, 50, 0.33);
   background-image: 
   linear-gradient(to top, rgba(175, 175, 175, 1), white, white);

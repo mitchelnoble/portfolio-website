@@ -1,5 +1,6 @@
 .about-container {
   margin-top: 5em;
+  height: 58vh;
   display: flex block;
   flex-flow: row;
   align-items: center;

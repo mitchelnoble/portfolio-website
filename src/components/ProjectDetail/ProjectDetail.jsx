@@ -13,7 +13,7 @@ export default function ProjectDetail() {
         <h1>Play Price PC</h1>
         <p>
           A web application built with solely HTML, CSS, and Javascript that
-          highlights DOM manipulation and data rendering.
+          highlights DOM manipulation and pulling data from third-party API's.
         </p>
       </div>
 
@@ -30,19 +30,26 @@ export default function ProjectDetail() {
         </p>
       </div>
 
-      <div className="gl-project">
-        <img
-          src="https://i.imgur.com/NTEnr4Yb.png"
-          alt="get-lost-logo"
-          className="get-lost-logo"
-        />
-        <h1>Get Lost</h1>
-        <p>
-          A full-stack retail web application with full CRUD functionality
-          deployed to Netlify and Heroku, and built with a team of 3 other
-          individuals.
-        </p>
-      </div>
+      <a
+        href="https://get-lost.netlify.app/"
+        target="blank"
+        className="gl-link"
+      >
+        <div className="gl-project">
+          <img
+            src="https://i.imgur.com/NTEnr4Yb.png"
+            alt="get-lost-logo"
+            className="get-lost-logo"
+          />
+          <h1>Get Lost</h1>
+          <p>
+            A full-stack retail web application with full CRUD functionality,
+            authorization, and a shopping cart system using local storage.
+            Deployed to Netlify and Heroku, and built with a team of 3 other
+            individuals using the Github "Gitflow" model.
+          </p>
+        </div>
+      </a>
 
       <div className="pr-project">
         <img

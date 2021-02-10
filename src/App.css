@@ -1,8 +1,13 @@
 .App {
   text-align: center;
   margin: 0 auto;
-  height: 100vh;
-  background-image: linear-gradient(to top, rgba(175, 175, 175, 0.3), white, white);
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(175, 175, 175, 0.3),
+    white,
+    white
+  );
 }
 
 .App-logo {
