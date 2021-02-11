@@ -1,11 +1,15 @@
 .about-container {
-  margin-top: 5em;
-  height: 58vh;
-  display: flex block;
-  flex-flow: row;
+  margin-top: 1em;
+  height: 120vh;
+  display: grid;
+  grid-template-areas:
+    "A1 A2"
+    "B1 B2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 .about-me-title {
@@ -19,6 +23,7 @@
 .about-me-text {
   font-size: 2rem;
   display: flex;
+  grid-area: B1;
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
   text-shadow: rgba(210, 210, 210, 0.6) 1.5px 5px 3px;
@@ -30,6 +35,26 @@
   align-self: center;
   text-align: center;
   font-family: "Roboto" "sans";
+}
+
+.icon-title {
+  grid-area: B1;
+  font-size: 3rem;
+  font-family: "Montserrat", "sans";
+  text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+}
+
+.icon-container {
+  grid-area: B2;
+  display: grid;
+  grid-template: 150px 150px / auto auto auto;
+  justify-content: space-evenly;
+  font-size: 5rem;
+  text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
 }
 
 @keyframes fadeIn {
