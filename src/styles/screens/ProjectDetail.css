@@ -1,5 +1,6 @@
 .projects-container {
   margin-top: 1.5em;
+  height: 110vh;
   font-family: "Roboto";
   font-weight: bolder;
   display: grid;
@@ -8,34 +9,59 @@
     "B1 B2";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 1em;
+  gap: 0.5em;
 }
 
 .pppc-project {
+  grid-area: B2;
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  padding: 2em;
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  height: 43vh;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  padding: 5em 2em;
+  height: 33vh;
+  min-height: 33;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
 }
 
 .ppp-project {
+  grid-area: B1;
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  padding: 2em;
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
-  height: 43vh;
+  padding: 5em 2em;
+  height: 33vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
 }
 
 .gl-project {
+  grid-area: A2;
   border: 1px solid black;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  padding: 2em;
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-  height: 43vh;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  padding: 5em 2em;
+  height: 33vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+}
+.pr-project {
+  grid-area: A1;
+  border: 1px solid black;
+  box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  padding: 5em 2em;
+  height: 33vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
 }
 
 .gl-link {
@@ -46,15 +72,6 @@
 .pr-link {
   text-decoration: none;
   color: black;
-}
-
-.pr-project {
-  border: 1px solid black;
-  box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  padding: 2em;
-  animation: fadeIn ease 8s;
-  -webkit-animation: fadeIn ease 8s;
-  height: 43vh;
 }
 
 @keyframes fadeIn {
