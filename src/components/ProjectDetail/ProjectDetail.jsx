@@ -24,10 +24,10 @@ export default function ProjectDetail() {
           className="ppp-logo"
         />
         <h1>Practice Practice Practice</h1>
-        <p>
+        
           A React-based productivity application that emphasizes CRUD
           functionality. The app allows you to set a simple day-to-day schedule for various topics of your choice.
-        </p>
+      
       </div>
 
       <a
@@ -58,15 +58,15 @@ export default function ProjectDetail() {
       >
       <div className="pr-project">
         <img
-          src="https://i.imgur.com/HeqqlLfb.png"
+          src="https://i.imgur.com/3JP4Dpdb.png"
           alt="protozoa-records-logo"
           className="pr-logo"
         />
         <h1>Protozoa Records</h1>
-        <p>
+        
           A full-stack, full CRUD web application developed with React client-side
           and Ruby on Rails server-side. Along with responsive styling, the site also features front-end and back-end Authentication. 
-        </p>
+        
         </div>
         </a>
     </div>

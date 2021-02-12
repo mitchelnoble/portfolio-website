@@ -10,11 +10,13 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0.5em;
+  padding: 2em;
 }
 
 .pppc-project {
   grid-area: B2;
   border: 1px solid black;
+  border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -29,6 +31,7 @@
 .ppp-project {
   grid-area: B1;
   border: 1px solid black;
+  border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -42,6 +45,7 @@
 .gl-project {
   grid-area: A2;
   border: 1px solid black;
+  border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -54,6 +58,7 @@
 .pr-project {
   grid-area: A1;
   border: 1px solid black;
+  border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
@@ -62,6 +67,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: wrap;
+}
+
+.pr-logo {
+  border: 2px solid grey;
+  border-radius: 35px;
+}
+
+.gl-logo {
+  border: 2px solid grey;
+  border-radius: 35px;
+}
+
+.pppc-logo {
+  border: 2px solid grey;
+  border-radius: 35px;
+}
+
+.ppp-logo {
+  border: 2px solid grey;
+  border-radius: 35px;
 }
 
 .gl-link {
