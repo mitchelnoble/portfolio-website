@@ -9,8 +9,9 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   box-shadow: -3px -5px 6px rgba(50, 50, 50, 0.33);
-  background-image: 
+  background-image:
   linear-gradient(to top, rgba(175, 175, 175, 1), white, white);
+  background-color: white;
 }
 
 
