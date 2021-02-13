@@ -7,7 +7,12 @@
   align-items: center;
   border-bottom: 1px solid grey;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  background-image: linear-gradient(to bottom, rgba(215, 215, 215), white, white);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(215, 215, 215),
+    white,
+    white
+  );
 }
 
 .about-link {
@@ -37,4 +42,12 @@
   text-decoration: none;
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-container {
+    font-size: 0.5rem;
+    width: 85vw;
+    height: 8vh;
+  }
 }

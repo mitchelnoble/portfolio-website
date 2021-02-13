@@ -10,11 +10,9 @@ export default function ProjectDetail() {
           alt="play-price-pc-logo"
           className="pppc-logo"
         />
-        <h1>Play Price PC</h1>
-        
-          A web application built with solely HTML, CSS, and Javascript that
-          highlights DOM manipulation and pulling data from third-party API's.
-        
+        <h1>Play Price PC</h1>A web application built with solely HTML, CSS, and
+        Javascript that highlights DOM manipulation and pulling data from
+        third-party API's.
       </div>
 
       <div className="ppp-project">
@@ -23,11 +21,9 @@ export default function ProjectDetail() {
           alt="practice-practice-practice-logo"
           className="ppp-logo"
         />
-        <h1>Practice Practice Practice</h1>
-        
-          A React-based productivity application that emphasizes CRUD
-          functionality. The app allows you to set a simple day-to-day schedule for various topics of your choice.
-      
+        <h1>Practice Practice Practice</h1>A React-based productivity
+        application that emphasizes CRUD functionality. The app allows you to
+        set a simple day-to-day schedule for various topics of your choice.
       </div>
 
       <a
@@ -41,13 +37,10 @@ export default function ProjectDetail() {
             alt="get-lost-logo"
             className="get-lost-logo"
           />
-          <h1>Get Lost</h1>
-          
-            A full-stack retail web application with full CRUD functionality,
-            authorization, and a shopping cart system using local storage.
-            Deployed to Netlify and Heroku, and built with a team of 3 other
-            individuals using the Github "Gitflow" model.
-          
+          <h1>Get Lost</h1>A full-stack retail web application with full CRUD
+          functionality, authorization, and a shopping cart system using local
+          storage. Deployed to Netlify and Heroku, and built with a team of 3
+          other individuals using the Github "Gitflow" model.
         </div>
       </a>
 
@@ -56,19 +49,18 @@ export default function ProjectDetail() {
         target="blank"
         className="pr-link"
       >
-      <div className="pr-project">
-        <img
-          src="https://i.imgur.com/3JP4Dpdb.png"
-          alt="protozoa-records-logo"
-          className="pr-logo"
-        />
-        <h1>Protozoa Records</h1>
-        
-          A full-stack, full CRUD web application developed with React client-side
-          and Ruby on Rails server-side. Along with responsive styling, the site also features front-end and back-end Authentication. 
-        
+        <div className="pr-project">
+          <img
+            src="https://i.imgur.com/3JP4Dpdb.png"
+            alt="protozoa-records-logo"
+            className="pr-logo"
+          />
+          <h1>Protozoa Records</h1>A full-stack, full CRUD web application
+          developed with React client-side and Ruby on Rails server-side. Along
+          with responsive styling, the site also features front-end and back-end
+          Authentication.
         </div>
-        </a>
+      </a>
     </div>
   );
 }
