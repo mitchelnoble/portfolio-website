@@ -25,6 +25,7 @@ export default function Contact() {
       <div className="contact-title-container">
         <h1 className="contact-me-title">Contact Me</h1>
       </div>
+      <div className="form-and-details">
       <div className="contact-form">
         <form onSubmit={sendEmail} className="the-form">
           <input
@@ -64,6 +65,7 @@ export default function Contact() {
             <br />
             <p>Github: https://github.com/mitchelnoble</p>
           </div>
+      </div>
         </div>
       </div>
     </>

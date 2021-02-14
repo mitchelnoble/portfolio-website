@@ -61,6 +61,30 @@
   grid-area: A2;
 }
 
+@media only screen and (max-width: 400px) {
+  .form-and-details {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contact-form {
+    width: 100;
+    display: flex;
+    /* flex-flow: column;
+    justify-content: flex-start;
+    align-items: center; */
+  }
+  .information-container {
+    font-size: 1rem;
+    width: 100;
+    display: inline flex;
+    justify-content: flex-end;
+  }
+  
+
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
