@@ -4,7 +4,7 @@ import '../../styles/screens/Resume.css'
 export default function Resume() {
   return (
     <>
-      <a href="https://www.docdroid.net/SNH37X6/mitchel-noble-pdf">
+      <a href="https://i.imgur.com/uy65FUj.png">
       <img src="https://i.imgur.com/uy65FUjl.png" alt="Mitchel Noble Resume" className="resume-image"></img>
       </a>
     </>
