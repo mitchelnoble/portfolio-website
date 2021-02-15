@@ -22,10 +22,14 @@ export default function Contact() {
 
   return (
     <>
+      
       <div className="contact-title-container">
         <h1 className="contact-me-title">Contact Me</h1>
       </div>
+
       <div className="form-and-details">
+
+        <div className="contact-form">
         <form onSubmit={sendEmail} className="the-form">
           <input
             type="text"
@@ -55,6 +59,7 @@ export default function Contact() {
           />
           <input type="submit" className="submit-button" value="Send" />
         </form>
+        </div>
 
         <div className="contact-details-container">
             <p>Email: MitchelParkerNoble@gmail.com</p>

@@ -1,16 +1,12 @@
 .contact-form {
-  height: 60vh;
+  height: 40vh;
   display: grid;
-  grid-template-areas: "A1 A2";
-  gap: 1em;
-  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }
 
 .the-form {
   padding: 1em;
-  grid-area: A1;
   display: grid;
   gap: 0.5em;
   animation: fadeIn ease 6s;
@@ -36,10 +32,6 @@
 .submit-button:hover {
   cursor: pointer;
 }
-
-.contact-details-container {
-  grid-area: A2;
-}
 .contact-me-title {
   margin-top: 1em;
   margin-bottom: 0;
@@ -58,27 +50,30 @@
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
   text-shadow: rgba(210, 210, 210, 0.4) 1.5px 5px 3px;
-  grid-area: A2;
 }
 
+.contact-details-container {
+  margin-bottom: 5em;
+}
+
+
 @media only screen and (max-width: 400px) {
-  .form-and-details {
-    display: grid;
-    grid-template-areas: "A1 A2 A3";
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+  .contact-me-title {
+    margin-bottom: 0.5em;
   }
   .contact-form {
     width: 100;
-    grid-area: A1;
   }
   .contact-details-container {
     font-size: 1rem;
     width: 100;
-    grid-area: A3;
   }
-  
+  .submit-button {
+    width: 7em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+  }
 
 }
 
