@@ -65,12 +65,10 @@
     display: flex;
     flex-flow: column wrap;
   }
-.about-me-text{
-  font-size: 1.3rem;
+  .about-me-text {
+    font-size: 1.3rem;
+  }
 }
-}
-
-
 
 @keyframes fadeIn {
   0% {
