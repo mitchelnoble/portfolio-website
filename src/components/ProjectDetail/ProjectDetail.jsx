@@ -4,16 +4,22 @@ import "../../styles/screens/ProjectDetail.css";
 export default function ProjectDetail() {
   return (
     <div className="projects-container">
-      <div className="pppc-project">
-        <img
-          src="https://i.imgur.com/HYWVr6Ub.png"
-          alt="play-price-pc-logo"
-          className="pppc-logo"
-        />
-        <h1>Play Price PC</h1>A web application built with solely HTML, CSS, and
-        Javascript that highlights DOM manipulation and pulling data from
-        third-party API's.
-      </div>
+      <a
+        href="https://play-price-pc.netlify.app/"
+        target="blank"
+        className="pppc-link"
+      >
+        <div className="pppc-project">
+          <img
+            src="https://i.imgur.com/HYWVr6Ub.png"
+            alt="play-price-pc-logo"
+            className="pppc-logo"
+          />
+          <h1>Play Price PC</h1>A web application built with solely HTML, CSS,
+          and Javascript that highlights DOM manipulation and pulling data from
+          third-party API's.
+        </div>
+      </a>
 
       <div className="ppp-project">
         <img
