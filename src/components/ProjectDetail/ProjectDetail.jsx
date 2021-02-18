@@ -21,7 +21,7 @@ export default function ProjectDetail() {
         </div>
       </a>
 
-      <div className="ppp-project">
+      {/* <div className="ppp-project">
         <img
           src="https://i.imgur.com/f4hvHbpb.png"
           alt="practice-practice-practice-logo"
@@ -30,7 +30,7 @@ export default function ProjectDetail() {
         <h1>Practice Practice Practice</h1>A React-based productivity
         application that emphasizes CRUD functionality. The app allows you to
         set a simple day-to-day schedule for various topics of your choice.
-      </div>
+      </div> */}
 
       <a
         href="https://get-lost.netlify.app/"
