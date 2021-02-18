@@ -89,6 +89,10 @@
   border-radius: 35px;
 }
 
+.pppc-link {
+  text-decoration: none;
+  color: black;
+}
 .gl-link {
   text-decoration: none;
   color: black;
