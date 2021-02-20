@@ -15,7 +15,7 @@ export default function ProjectDetail() {
             alt="play-price-pc-logo"
             className="pppc-logo"
           />
-          <h1>Play Price PC</h1>A web application built with solely HTML, CSS,
+          <h1 className="pppc-title">P l a y <br /> P r i c e <br /> P C</h1>A web application built with solely HTML, CSS,
           and Javascript that highlights DOM manipulation and pulling data from
           third-party API's.
         </div>
@@ -30,9 +30,9 @@ export default function ProjectDetail() {
           <img
             src="https://i.imgur.com/NTEnr4Yb.png"
             alt="get-lost-logo"
-            className="get-lost-logo"
+            className="gl-logo"
           />
-          <h1>Get Lost</h1>A full-stack retail web application with full CRUD
+          <h1 className="gl-title">G e t <br /> L o s t</h1>A full-stack retail web application with full CRUD
           functionality, authorization, and a shopping cart system using local
           storage. Deployed to Netlify and Heroku, and built with a team of 3
           other individuals using the Github "Gitflow" model.
@@ -50,7 +50,7 @@ export default function ProjectDetail() {
             alt="protozoa-records-logo"
             className="pr-logo"
           />
-          <h1>Protozoa Records</h1>A full-stack, full CRUD web application
+          <h1 className="pr-title">P r o t o z o a <br /> R e c o r d s</h1>A full-stack, full CRUD web application
           developed with React client-side and Ruby on Rails server-side. Along
           with responsive styling, the site also features front-end and back-end
           Authentication.
