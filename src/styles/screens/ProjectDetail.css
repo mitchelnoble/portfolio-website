@@ -143,7 +143,16 @@
 }
 @media only screen and (max-width: 375px) {
   .projects-container {
-    height: 180vh;
+    height: 190vh;
+  }
+  .pppc-project {
+    height: 43vh;
+  }
+  .gl-project {
+    height: 43vh;
+  }
+  .pr-project {
+    height: 43vh;
   }
 }
 

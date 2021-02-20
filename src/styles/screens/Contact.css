@@ -96,7 +96,27 @@
     display: flex;
     justify-content: center;
   }
-
+}
+@media only screen and (max-width: 400px) {
+  .form-and-details {
+    width: 100%;
+  }
+  .contact-me-title {
+    margin-bottom: 0.5em;
+  }
+  .contact-form {
+    width: 100;
+  }
+  .contact-details-container {
+    font-size: 1rem;
+    width: 110;
+  }
+  .submit-button {
+    width: 7em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @keyframes fadeIn {
