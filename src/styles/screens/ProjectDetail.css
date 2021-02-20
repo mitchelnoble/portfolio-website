@@ -21,7 +21,7 @@
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
-  background: linear-gradient(to right, rgb(60, 245, 249), rgb(255, 255, 255));
+  background: linear-gradient(0deg, rgb(50, 190, 215) 0px, rgb(255, 255, 255) 100%);
   padding: 5em 2em;
   height: 40vh;
   min-height: 33;
@@ -35,7 +35,7 @@
   border: 1px solid black;
   border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  background: linear-gradient(to right, rgb(50, 252, 255), rgb(30, 155, 5));
+  background: linear-gradient(105deg, white, rgb(50, 252, 255), rgb(43, 189, 13), white);
   animation: fadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   padding: 5em 2em;
