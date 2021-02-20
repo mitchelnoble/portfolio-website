@@ -107,6 +107,22 @@
     flex-flow: column;
   }
 }
+@media only screen and (max-width: 415px) {
+  .about-container {
+    font-size: 0.5rem;
+    width: 100;
+    height: 200vh;
+    display: flex;
+    flex-flow: column;
+  }
+  .about-me-text {
+    font-size: 1.3rem;
+  }
+  .icon-container {
+    display: flex;
+    flex-flow: column;
+  }
+}
 @media only screen and (max-width: 375px) {
   .about-container {
     font-size: 0.5rem;

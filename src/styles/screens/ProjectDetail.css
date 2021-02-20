@@ -125,6 +125,22 @@
     height: 225vh;
   }
 }
+
+
+@media only screen and (max-width: 415px) {
+  .projects-container {
+    height: 240vh;
+  }
+  .pppc-project {
+    height: 55vh;
+  }
+  .gl-project {
+    height: 55vh;
+  }
+  .pr-project {
+    height: 55vh;
+  }
+}
 @media only screen and (max-width: 375px) {
   .projects-container {
     height: 180vh;
