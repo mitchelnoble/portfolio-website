@@ -1,4 +1,5 @@
 .contact-form {
+  margin: 5em;
   height: 40vh;
   display: grid;
   justify-content: center;
@@ -33,7 +34,7 @@
   cursor: pointer;
 }
 .contact-me-title {
-  margin-top: 1em;
+  margin-top: 1.5em;
   margin-bottom: 0;
   font-size: 3rem;
   font-family: "Montserrat", "sans";
@@ -42,20 +43,41 @@
   -webkit-animation: fadeIn ease 4s;
 }
 
-.information-container {
-  margin: 0 auto;
+.contact-details-container {
+  margin: 3em 40%;
+  text-align: left;
   font-family: "Roboto", "sans";
   font-size: 1.25rem;
-  text-align: center;
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
   text-shadow: rgba(210, 210, 210, 0.4) 1.5px 5px 3px;
 }
 
-.contact-details-container {
-  margin-bottom: 5em;
+@media only screen and (max-width: 1200px) {
+  .contact-details-container {
+    margin: 3em 35%;
+  }
 }
-
+@media only screen and (max-width: 800px) {
+  .contact-details-container {
+    margin: 3em 30%;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .contact-details-container {
+    margin: 3em 25%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .contact-details-container {
+    margin: 3em 20%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contact-details-container {
+    margin: 3em 15%;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   .contact-me-title {
