@@ -1,6 +1,5 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom'
-import Landing from './screens/Landing/Landing'
 import About from './screens/About/About'
 import ProjectDetail from './components/ProjectDetail/ProjectDetail'
 import Resume from './screens/Resume/Resume'
@@ -13,11 +12,8 @@ function App() {
       <Switch>
         <Layout>
         <Route exact path="/">
-          <Landing />
-        </Route>
-        <Route path="/About">
           <About />
-          </Route>
+            </Route>
           <Route path="/ProjectDetail">
             <ProjectDetail />
           </Route>
