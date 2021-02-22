@@ -21,6 +21,18 @@
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
   border-left: 1px solid rgba(190, 190, 190, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-link:hover {
+  animation: grey-to-black;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 
 .projects-link {
@@ -28,6 +40,18 @@
   text-decoration: none;
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-link:hover {
+  animation: grey-to-black;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 
 .resume-link {
@@ -35,6 +59,18 @@
   text-decoration: none;
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-link:hover {
+  animation: grey-to-black;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 
 .contact-link {
@@ -42,6 +78,18 @@
   text-decoration: none;
   color: black;
   border-right: 1px solid rgba(190, 190, 190, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link:hover {
+  animation: grey-to-black;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
 }
 
 @media only screen and (max-width: 750px) {
@@ -56,5 +104,16 @@
     font-size: 0.5rem;
     width: 100vw;
     height: 8vh;
+  }
+}
+
+@keyframes grey-to-black {
+  from {
+    color: black;
+    background: white;
+  }
+  to {
+    color: white;
+    background: black;
   }
 }
