@@ -48,14 +48,23 @@
   justify-content: center;
   align-items: center;
 }
+
+.email-icon-link:hover {
+  animation: jumpy;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
 .github-icon {
   font-size: 3rem;
   color: teal;
 }
 
-.github-icon:hover {
-  animation: grow;
-  animation-duration: 0.7s;
+.github-icon-link:hover {
+  animation: jumpy;
+  animation-duration: 0.3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -83,6 +92,13 @@
   align-items: center;
 }
 
+.linkedin-icon-link:hover {
+  animation: jumpy;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .email-and-developed-by {
   grid-area: F5;
   width: 100%;
@@ -105,11 +121,19 @@
   }
 }
 
-@keyframes grow {
+@keyframes bottom-border{
   from {
-    font-size: 3rem;
+    border-bottom: none;
   }
   to {
-    font-size: 5rem;
+    border-bottom: 5px solid black;
+  }
+}
+@keyframes jumpy {
+  from {
+   padding-top: 5%;
+  }
+  to {
+   padding-bottom: 5%;
   }
 }
