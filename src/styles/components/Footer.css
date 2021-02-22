@@ -121,6 +121,18 @@
   }
 }
 
+@media only screen and (max-width: 370px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-logo-link {
+    display: none;
+  }
+  .email-and-developed-by {
+    display: none;
+  }
+}
+
 @keyframes bottom-border{
   from {
     border-bottom: none;

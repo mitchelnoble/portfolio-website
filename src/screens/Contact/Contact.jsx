@@ -52,8 +52,8 @@ export default function Contact() {
           <textarea
             className="text-box"
             id=""
-            cols="30"
-            rows="8"
+            cols="80"
+            rows="12"
             placeholder="Your Message"
             name="message"
           />
