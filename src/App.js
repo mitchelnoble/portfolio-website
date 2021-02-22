@@ -6,11 +6,13 @@ import ProjectDetail from './components/ProjectDetail/ProjectDetail'
 import Resume from './screens/Resume/Resume'
 import Contact from './screens/Contact/Contact'
 import Layout from './components/Layout/Layout'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
   return (
     <div className="App">
       <Switch>
+        <ScrollToTop>
         <Layout>
         <Route exact path="/">
           <About />
@@ -25,6 +27,7 @@ function App() {
         <Contact />
           </Route>
           </Layout>
+        </ScrollToTop>
       </Switch>
     </div>
   );
