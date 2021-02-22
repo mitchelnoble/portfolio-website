@@ -21,6 +21,9 @@ export default function Footer() {
         <Link to="/Contact" className="email-icon-link">
       <FontAwesomeIcon className="email-icon" icon={faEnvelopeSquare} />
         </Link>
+        <div className="footer-logo" ><p>
+        M I T C H E L <br /> N O B L E</p></div>
+        <div className="email-and-developed-by">Email: MitchelParkerNoble@gmail.com</div>
       </div>
       </>
   )

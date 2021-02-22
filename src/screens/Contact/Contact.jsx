@@ -60,14 +60,6 @@ export default function Contact() {
           <input type="submit" className="submit-button" value="Send" />
         </form>
         </div>
-
-        <div className="contact-details-container">
-            <p>Email: MitchelParkerNoble@gmail.com</p>
-            <br />
-            <p>LinkedIn: https://www.linkedin.com/in/mitchel-noble/ </p>
-            <br />
-            <p>Github: https://github.com/mitchelnoble</p>
-      </div>
         </div>
     </>
   );
