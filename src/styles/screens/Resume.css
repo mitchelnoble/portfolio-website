@@ -1,5 +1,6 @@
 .resume-image{
   margin: 2em;
+  width: 80vw;
   box-shadow: 60px -16px grey;
   box-shadow: 10px 8px 5px 10px rgba(0,0,0,0.2);
   animation: fadeIn ease 4s;

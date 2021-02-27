@@ -30,7 +30,7 @@
 
 .about-link:hover {
   animation: grey-to-black;
-  animation-duration: 1.5s;
+  animation-duration: 0.6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -49,7 +49,7 @@
 
 .projects-link:hover {
   animation: grey-to-black;
-  animation-duration: 1.5s;
+  animation-duration: 0.6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -68,7 +68,7 @@
 
 .resume-link:hover {
   animation: grey-to-black;
-  animation-duration: 1.5s;
+  animation-duration: 0.6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -87,7 +87,7 @@
 
 .contact-link:hover {
   animation: grey-to-black;
-  animation-duration: 1.5s;
+  animation-duration: 0.6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
