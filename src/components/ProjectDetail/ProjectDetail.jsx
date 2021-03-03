@@ -5,6 +5,7 @@ const ProjectDetail = () => {
   
   return (
     <div className="projects-container">
+<h1 className="project-title">My Projects</h1>
       <a
         href="https://play-price-pc.netlify.app/"
         target="blank"
