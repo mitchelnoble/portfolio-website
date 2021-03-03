@@ -5,6 +5,7 @@ import About from './screens/About/About'
 import ProjectDetail from './components/ProjectDetail/ProjectDetail'
 import Resume from './screens/Resume/Resume'
 import Contact from './screens/Contact/Contact'
+import Music from './screens/Music/Music'
 import Layout from './components/Layout/Layout'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
@@ -25,7 +26,10 @@ function App() {
           </Route>
         <Route path="/Contact">
         <Contact />
-          </Route>
+            </Route>
+            <Route path="/Music">
+              <Music />
+            </Route>
           </Layout>
         </ScrollToTop>
       </Switch>
