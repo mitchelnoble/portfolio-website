@@ -1,5 +1,4 @@
 .projects-container {
-  margin-top: 1.5em;
   height: 200vh;
   max-width: 100%;
   font-family: "Roboto";
@@ -14,13 +13,21 @@
   padding: 2em;
 }
 
+.project-title {
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: "Montserrat", "sans";
+    text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 .pppc-project {
   grid-area: B2;
   border: 1px solid black;
   border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
   background: linear-gradient(0deg, rgb(50, 190, 215) 0px, rgb(255, 255, 255) 100%);
   padding: 5em 2em;
   height: 40vh;
@@ -36,8 +43,6 @@
   border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   background: linear-gradient(105deg, white, rgb(50, 252, 255), rgb(43, 189, 13), white);
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
   padding: 5em 2em;
   height: 40vh;
   overflow: hidden;
@@ -50,8 +55,6 @@
   border-radius: 30px;
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
   background: linear-gradient(to right, rgb(118, 255, 173), rgb(255, 91, 91), rgb(255, 255, 122));
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
   padding: 5em 2em;
   height: 40vh;
   overflow: hidden;
