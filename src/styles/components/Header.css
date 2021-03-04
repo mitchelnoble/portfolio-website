@@ -9,6 +9,9 @@
   font-size: 3rem;
   color: white;
   padding-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-last-name {
@@ -16,6 +19,9 @@
   font-family: 'Montserrat';
   font-size: 3rem;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-container {
