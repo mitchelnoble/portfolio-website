@@ -1,5 +1,5 @@
 .about-container {
-  height: 100vh;
+  height: 110vh;
   display: grid;
   grid-template-areas:
     "A1"
@@ -50,6 +50,7 @@
 }
 
 .icon-container {
+  max-height: 70vh;
   margin-top: 0.3em;
   grid-area: A4;
   display: grid;
