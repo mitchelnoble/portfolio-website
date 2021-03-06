@@ -14,7 +14,7 @@
 }
 
 .project-title {
-    margin: 0 auto;
+    margin: 1em auto 1em auto;
     font-size: 3rem;
     font-family: "Montserrat", "sans";
     text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
