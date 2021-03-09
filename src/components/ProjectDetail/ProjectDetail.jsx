@@ -5,6 +5,10 @@ const ProjectDetail = () => {
   return (
     <div className="projects-container">
       <h1 className="project-title">My Projects</h1>
+
+      <div className="placeholder-1">
+      </div>
+      
       <a
         href="https://play-price-pc.netlify.app/"
         target="blank"
@@ -26,6 +30,10 @@ const ProjectDetail = () => {
         </div>
       </a>
 
+
+      <div className="placeholder-2">
+      </div>
+      
       <a
         href="https://get-lost.netlify.app/"
         target="blank"
@@ -49,6 +57,9 @@ const ProjectDetail = () => {
         </div>
       </a>
 
+      <div className="placeholder-3">
+        </div>
+      
       <a
         href="https://protozoa-records.netlify.app"
         target="blank"
