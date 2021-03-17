@@ -5,8 +5,13 @@ const ProjectDetail = () => {
   return (
     <div className="projects-container">
       <h1 className="project-title">My Projects</h1>
-
-      <div className="placeholder-1">
+      
+      <div className="background-1">
+      <img
+        src="https://i.imgur.com/OGXrFcD.gif"
+        alt="Play Price PC gif"
+        className="PPPC-gif"
+      />
       </div>
       
       <a
@@ -31,9 +36,13 @@ const ProjectDetail = () => {
       </a>
 
 
-      <div className="placeholder-2">
+      <div className="background-2">
+      <img
+        src="https://i.imgur.com/sWQhG2f.gif"
+        alt="Get Lost gif"
+        className="GL-gif"
+      />
       </div>
-      
       <a
         href="https://get-lost.netlify.app/"
         target="blank"
@@ -57,8 +66,13 @@ const ProjectDetail = () => {
         </div>
       </a>
 
-      <div className="placeholder-3">
-        </div>
+      <div className="background-3">
+      <img
+        src="https://i.imgur.com/RGIkLzn.gif"
+        alt="Protozoa Records gif"
+        className="PR-gif"
+      />
+      </div>
       
       <a
         href="https://protozoa-records.netlify.app"
