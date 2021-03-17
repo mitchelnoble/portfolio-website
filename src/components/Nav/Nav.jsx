@@ -14,6 +14,9 @@ export default function Nav() {
       <Link to="/Resume" className="resume-link">
         R E S U M E{" "}
       </Link>
+      <Link to="/Music" className="music-link">
+        M U S I C
+        </Link>
       <Link to="/Contact" className="contact-link">
         C O N T A C T{" "}
       </Link>
