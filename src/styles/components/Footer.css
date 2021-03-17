@@ -1,5 +1,4 @@
 .footer-container {
-  margin-top: 0.5em;
   display: grid;
   grid-template-areas: "F1 F2 F3 F4 F5";
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

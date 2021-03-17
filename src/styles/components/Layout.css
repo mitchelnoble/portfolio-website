@@ -1,0 +1,27 @@
+.layout-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas: 
+  'header'
+  'nav'
+  'main'
+  'footer';
+}
+
+.layout-header {
+  grid-area: header;
+}
+
+.layout-nav {
+  grid-area: nav;
+}
+
+.layout-content {
+  grid-area: main;
+  overflow: auto;
+}
+
+.layout-footer {
+  grid-area: footer;
+}
