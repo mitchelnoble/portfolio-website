@@ -17,7 +17,8 @@ export default function About() {
           Software Engineer.
         </p>
       </div>
-        <h1 className="icon-title">Languages & Frameworks</h1>
+      <h1 className="icon-title">Languages & Frameworks</h1>
+      <br />
       <div className="icon-container">
         <i class="devicon-html5-plain-wordmark colored"></i>
         <i class="devicon-css3-plain-wordmark colored"></i>

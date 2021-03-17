@@ -65,8 +65,7 @@
 @media only screen and (max-width: 1400px) {
   .about-container {
     font-size: 0.5rem;
-    width: 100;
-    height: 120vh;
+    height: 140vh;
     display: flex;
     flex-flow: column wrap;
   }
@@ -93,6 +92,7 @@
     font-size: 1.3rem;
   }
   .icon-container {
+    margin: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +103,7 @@
 
 @media only screen and (max-width: 600px) {
   .about-container {
-    height: 145vh;
+    height: 170vh;
     font-size: 0.5rem;
   }
   .icon-container {
