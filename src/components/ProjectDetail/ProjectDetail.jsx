@@ -5,15 +5,15 @@ const ProjectDetail = () => {
   return (
     <div className="projects-container">
       <h1 className="project-title">My Projects</h1>
-      
+
       <div className="background-1">
-      <img
-        src="https://i.imgur.com/OGXrFcD.gif"
-        alt="Play Price PC gif"
-        className="PPPC-gif"
-      />
+        <img
+          src="https://i.imgur.com/OGXrFcD.gif"
+          alt="Play Price PC gif"
+          className="PPPC-gif"
+        />
       </div>
-      
+
       <a
         href="https://play-price-pc.netlify.app/"
         target="blank"
@@ -25,9 +25,7 @@ const ProjectDetail = () => {
             alt="play-price-pc-logo"
             className="pppc-logo"
           />
-          <h1 className="pppc-title">
-            P l a y  P r i c e  P C
-          </h1>
+          <h1 className="pppc-title">P l a y P r i c e P C</h1>
           <p className="pppc-description">
             A web application built with solely HTML, CSS, and Javascript that
             highlights DOM manipulation and pulling data from third-party API's.
@@ -35,13 +33,12 @@ const ProjectDetail = () => {
         </div>
       </a>
 
-
       <div className="background-2">
-      <img
-        src="https://i.imgur.com/sWQhG2f.gif"
-        alt="Get Lost gif"
-        className="GL-gif"
-      />
+        <img
+          src="https://i.imgur.com/sWQhG2f.gif"
+          alt="Get Lost gif"
+          className="GL-gif"
+        />
       </div>
       <a
         href="https://get-lost.netlify.app/"
@@ -54,9 +51,7 @@ const ProjectDetail = () => {
             alt="get-lost-logo"
             className="gl-logo"
           />
-          <h1 className="gl-title">
-            G e t  L o s t
-          </h1>
+          <h1 className="gl-title">G e t L o s t</h1>
           <p className="gl-description">
             A full-stack retail web application with full CRUD functionality,
             authorization, and a shopping cart system using local storage.
@@ -67,13 +62,13 @@ const ProjectDetail = () => {
       </a>
 
       <div className="background-3">
-      <img
-        src="https://i.imgur.com/RGIkLzn.gif"
-        alt="Protozoa Records gif"
-        className="PR-gif"
-      />
+        <img
+          src="https://i.imgur.com/RGIkLzn.gif"
+          alt="Protozoa Records gif"
+          className="PR-gif"
+        />
       </div>
-      
+
       <a
         href="https://protozoa-records.netlify.app"
         target="blank"

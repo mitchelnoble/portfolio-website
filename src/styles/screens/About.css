@@ -15,11 +15,12 @@
 }
 
 .about-me-title {
+  margin: 1em;
   font-family: "Montserrat";
   font-size: 3rem;
   text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
   grid-area: A1;
 }
 
@@ -27,8 +28,8 @@
   font-size: 2rem;
   display: flex;
   grid-area: A2;
-  animation: fadeIn ease 10s;
-  -webkit-animation: fadeIn ease 10s;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
   text-shadow: rgba(210, 210, 210, 0.6) 1.5px 5px 3px;
 }
 
@@ -42,6 +43,7 @@
 
 .icon-title {
   grid-area: A3;
+  margin: 1em;
   font-size: 3rem;
   font-family: "Montserrat", "sans";
   text-shadow: 1.5px 7px 7px rgba(0, 0, 0, 0.2);
@@ -77,7 +79,7 @@
     grid-column-gap: 3em; 
   }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1330px) {
   .about-container {
     font-size: 0.5rem;
     width: 100;
