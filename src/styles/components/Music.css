@@ -7,8 +7,12 @@
 
 .music-description {
   height: 5em;
+  padding: 1em;
+  margin: 0 1em 1em 1em;
+  font-size: 1em;
   font-family: "Roboto", "sans";
   border: 2px solid grey;
+  border-radius: 2em 0 2em 0;
   background-color: black;
   color: white;
   display: flex;
