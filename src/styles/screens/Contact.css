@@ -29,8 +29,7 @@
 }
 
 .submit-button {
-  display: flex;
-  align-content: center;
+  text-align: center;
   justify-self: center;
   width: 3.2rem;
 }
