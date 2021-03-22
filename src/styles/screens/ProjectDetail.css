@@ -66,10 +66,11 @@
 
 .PPPC-gif {
   width: 80vw;
-  height: inherit;
+  border-radius: 0 3em 0 0;
   grid-area: A3;
   display: flex;
   justify-self: center;
+  
 }
 
 .pppc-project:hover {
@@ -132,6 +133,7 @@
 
 .GL-gif {
   width: 80vw;
+  border-radius: 3em 0 0 0;
   height: inherit;
   grid-area: A4;
   display: flex;
@@ -200,13 +202,19 @@
   box-shadow: -2px 5px 6px rgba(50, 50, 50, 0.32);
 }
 
+.pr-gif-container {
+  overflow: hidden;
+}
+
 .PR-gif {
   width: 80vw;
+  border-radius: 0 3em 0 0;
   height: inherit;
   grid-area: A6;
   display: flex;
   justify-self: center;
 }
+
 
 .pr-logo {
   border: 2px solid grey;
