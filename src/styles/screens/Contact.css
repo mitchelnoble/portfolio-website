@@ -3,12 +3,24 @@
   max-height: 100%;
 }
 
+.contact-form-wrapper {
+  margin: 1em;
+  border: 3px solid grey;
+  border-radius: 6em 0;
+  background: white;
+  overflow: hidden;
+}
+
 .contact-form {
   margin: 0 auto;
+  padding: 2em;
+  width: 100vw;
   height: 50vh;
+  background: white;
   display: grid;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 .the-form {

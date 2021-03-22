@@ -13,8 +13,7 @@
   font-family: "Roboto", "sans";
   border: 2px solid grey;
   border-radius: 2em 0 2em 0;
-  background-color: black;
-  color: white;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;

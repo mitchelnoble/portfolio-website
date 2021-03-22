@@ -29,6 +29,7 @@ export default function Contact() {
 
       <div className="form-and-details">
 
+        <div className="contact-form-wrapper">
         <div className="contact-form">
         <form onSubmit={sendEmail} className="the-form">
           <input
@@ -59,6 +60,7 @@ export default function Contact() {
           />
           <input type="submit" className="submit-button" value="Send" />
         </form>
+        </div>
         </div>
         </div>
     </>
