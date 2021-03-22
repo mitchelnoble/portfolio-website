@@ -18,7 +18,7 @@
     "A5"
     "A6"
     "A7";
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1/4fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
   padding: 2em;
 }
@@ -77,6 +77,15 @@
   opacity: 0.5;
 }
 
+.pppc-description-container {
+  font-family: 'Montserrat', 'sans';
+  border: 3px solid grey;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pppc-logo {
   display: flex;
   justify-self: flex-start;
@@ -87,10 +96,6 @@
 .pppc-title {
   margin: 0.5em;
   font-family: "Montserrat", "sans";
-}
-
-.pppc-description {
-  display: none;
 }
 
 .pppc-link {
@@ -140,6 +145,15 @@
   justify-self: center;
 }
 
+.gl-description-container {
+  font-family: 'Montserrat', 'sans';
+  border: 3px solid grey;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .gl-logo {
   border: 2px solid grey;
   border-radius: 35px;
@@ -159,10 +173,6 @@
 .gl-title {
   margin: 0.5em;
   font-family: "Montserrat", "sans";
-}
-
-.gl-description {
-  display: none;
 }
 
 .gl-link {
@@ -237,8 +247,14 @@
   font-family: "Montserrat", "sans";
 }
 
-.pr-description {
-  display: none;
+
+.pr-description-container {
+  font-family: 'Montserrat', 'sans';
+  border: 3px solid grey;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pr-link {

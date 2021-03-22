@@ -13,6 +13,12 @@ const ProjectDetail = () => {
           className="PPPC-gif"
         />
       </div>
+      <div className="pppc-description-container">
+      <p className="pppc-description">
+            A web application built with solely HTML, CSS, and Javascript that
+            highlights DOM manipulation and pulling data from third-party API's.
+          </p>
+      </div>
 
       <a
         href="https://play-price-pc.netlify.app/"
@@ -26,10 +32,6 @@ const ProjectDetail = () => {
             className="pppc-logo"
           />
           <h1 className="pppc-title">P l a y P r i c e P C</h1>
-          <p className="pppc-description">
-            A web application built with solely HTML, CSS, and Javascript that
-            highlights DOM manipulation and pulling data from third-party API's.
-          </p>
         </div>
       </a>
 
@@ -40,6 +42,16 @@ const ProjectDetail = () => {
           className="GL-gif"
         />
       </div>
+
+      <div className="gl-description-container">
+      <p className="gl-description">
+            A full-stack retail web application with full CRUD functionality,
+            authorization, and a shopping cart system using local storage.
+            Deployed to Netlify and Heroku, and built with a team of 3 other
+            individuals using the Github "Gitflow" model.
+          </p>
+      </div>
+
       <a
         href="https://get-lost.netlify.app/"
         target="blank"
@@ -52,12 +64,6 @@ const ProjectDetail = () => {
             className="gl-logo"
           />
           <h1 className="gl-title">G e t L o s t</h1>
-          <p className="gl-description">
-            A full-stack retail web application with full CRUD functionality,
-            authorization, and a shopping cart system using local storage.
-            Deployed to Netlify and Heroku, and built with a team of 3 other
-            individuals using the Github "Gitflow" model.
-          </p>
         </div>
       </a>
 
@@ -68,6 +74,15 @@ const ProjectDetail = () => {
           className="PR-gif"
         />
       </div>
+
+      <div className="pr-description-container">
+          <p className="pr-description">
+            A full-stack, full CRUD web application developed with React
+            client-side and Ruby on Rails server-side. Along with responsive
+            styling, the site also features front-end and back-end
+            Authentication.
+          </p>
+          </div>
 
       <a
         href="https://protozoa-records.netlify.app"
@@ -83,12 +98,6 @@ const ProjectDetail = () => {
           <h1 className="pr-title" alt="Protozoa Records">
             P r o t o z o a R e c o r d s
           </h1>
-          <p className="pr-description">
-            A full-stack, full CRUD web application developed with React
-            client-side and Ruby on Rails server-side. Along with responsive
-            styling, the site also features front-end and back-end
-            Authentication.
-          </p>
         </div>
       </a>
     </div>
