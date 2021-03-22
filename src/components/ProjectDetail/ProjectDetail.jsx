@@ -14,10 +14,11 @@ const ProjectDetail = () => {
         />
       </div>
       <div className="pppc-description-container">
-      <p className="pppc-description">
-            A web application built with solely HTML, CSS, and Javascript that
-            highlights DOM manipulation and pulling data from third-party API's.
-          </p>
+        <p className="pppc-description">
+          <h3>Play Price PC</h3> <hr /> A web application built with solely
+          HTML, CSS, and Javascript that highlights DOM manipulation and pulling
+          data from third-party API's.
+        </p>
       </div>
 
       <a
@@ -44,12 +45,12 @@ const ProjectDetail = () => {
       </div>
 
       <div className="gl-description-container">
-      <p className="gl-description">
-            A full-stack retail web application with full CRUD functionality,
-            authorization, and a shopping cart system using local storage.
-            Deployed to Netlify and Heroku, and built with a team of 3 other
-            individuals using the Github "Gitflow" model.
-          </p>
+        <p className="gl-description">
+          <h3>Get Lost</h3> <hr /> A full-stack retail web application with full
+          CRUD functionality, authorization, and a shopping cart system using
+          local storage. Deployed to Netlify and Heroku, and built with a team
+          of 3 other individuals using the Github "Gitflow" model.
+        </p>
       </div>
 
       <a
@@ -76,13 +77,13 @@ const ProjectDetail = () => {
       </div>
 
       <div className="pr-description-container">
-          <p className="pr-description">
-            A full-stack, full CRUD web application developed with React
-            client-side and Ruby on Rails server-side. Along with responsive
-            styling, the site also features front-end and back-end
-            Authentication.
-          </p>
-          </div>
+        <p className="pr-description">
+          <h3>Protozoa Records</h3> <hr />A full-stack, full CRUD web
+          application developed with React client-side and Ruby on Rails
+          server-side. Along with responsive styling, the site also features
+          front-end and back-end Authentication.
+        </p>
+      </div>
 
       <a
         href="https://protozoa-records.netlify.app"
