@@ -83,8 +83,6 @@ hr {
 
 .pppc-description-container {
   font-family: 'Montserrat', 'sans';
-  border: 3px solid grey;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,8 +149,6 @@ hr {
 
 .gl-description-container {
   font-family: 'Montserrat', 'sans';
-  border: 3px solid grey;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,8 +250,6 @@ hr {
 
 .pr-description-container {
   font-family: 'Montserrat', 'sans';
-  border: 3px solid grey;
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
