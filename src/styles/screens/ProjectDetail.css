@@ -74,7 +74,6 @@ hr {
   grid-area: A3;
   display: flex;
   justify-self: center;
-  
 }
 
 .pppc-project:hover {
@@ -82,7 +81,7 @@ hr {
 }
 
 .pppc-description-container {
-  font-family: 'Montserrat', 'sans';
+  font-family: "Montserrat", "sans";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,7 +147,7 @@ hr {
 }
 
 .gl-description-container {
-  font-family: 'Montserrat', 'sans';
+  font-family: "Montserrat", "sans";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,7 +224,6 @@ hr {
   justify-self: center;
 }
 
-
 .pr-logo {
   border: 2px solid grey;
   border-radius: 35px;
@@ -247,9 +245,8 @@ hr {
   font-family: "Montserrat", "sans";
 }
 
-
 .pr-description-container {
-  font-family: 'Montserrat', 'sans';
+  font-family: "Montserrat", "sans";
   display: flex;
   align-items: center;
   justify-content: center;
