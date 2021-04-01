@@ -8,10 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid grey;
-  border-radius: 6em 0;
-  background: white;
-  overflow: hidden;
 }
 
 .contact-form {
@@ -23,7 +19,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  overflow: auto;
 }
 
 .the-form {
