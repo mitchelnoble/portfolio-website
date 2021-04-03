@@ -3,13 +3,6 @@
   max-height: 100%;
 }
 
-.contact-form-wrapper {
-  margin: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .contact-form {
   margin: 0 auto;
   padding: 2em;
