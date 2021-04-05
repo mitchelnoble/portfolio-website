@@ -1,5 +1,4 @@
 import React from "react";
-// import "../../styles/screens/ProjectDetail.css";
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -8,9 +7,12 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid'
 
 const useStyles = makeStyles({
   root: {
+    minHeight: 425,
+    maxHeight: 425,
     maxWidth: 350,
   },
 });
@@ -19,7 +21,10 @@ const ProjectDetail = () => {
   const classes = useStyles();
 
   return (
-<>
+    <>
+    <Typography variant="h3">Projects</Typography>
+      <Grid container spacing={3} justify='center'>
+        <Grid item xs={3}>
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -33,7 +38,7 @@ const ProjectDetail = () => {
         <Typography gutterBottom variant="h5" component="h2">
           Play Price PC
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body1" color="textSecondary" component="p">
         A web application built with solely
           HTML, CSS, and Javascript that highlights DOM manipulation and pulling
           data from third-party API's.
@@ -49,7 +54,9 @@ const ProjectDetail = () => {
       </Button>
     </CardActions>
       </Card>
+        </Grid>
       
+        <Grid item xs={3}>
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -64,9 +71,9 @@ const ProjectDetail = () => {
           Get Lost
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-        A full-stack retail web application with full
-          CRUD functionality, authorization, and a shopping cart system using
-          local storage. Deployed to Netlify and Heroku, and built with a team
+        A full-stack application with full
+          CRUD, authorization, and a shopping cart system using
+          local storage. Built with a team
           of 3 other individuals using the Github "Gitflow" model.
         </Typography>
       </CardContent>
@@ -80,7 +87,9 @@ const ProjectDetail = () => {
       </Button>
     </CardActions>
       </Card>
+        </Grid>
       
+        <Grid item xs={3}>
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -111,6 +120,8 @@ const ProjectDetail = () => {
       </Button>
     </CardActions>
   </Card>
+        </Grid>
+      </Grid>
     </>
   );
 };
