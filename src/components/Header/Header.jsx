@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -64,23 +65,23 @@ export default function BackToTop(props) {
       <AppBar>
         <Toolbar>
           <Typography variant="h6">Mitchel Noble</Typography>
-        </Toolbar>
-        <Paper square className={classes.root}>
       <Tabs
         value={value}
         onChange={handleChange}
-        variant="fullWidth"
-        indicatorColor="secondary"
-        textColor="secondary"
+        variant="standard"
+        indicatorColor="white"
+        textColor="white"
         aria-label="icon label tabs example"
-      >
-        <Tab icon={<PhoneIcon />} label="ABOUT" />
-        <Tab icon={<FavoriteIcon />} label="PROJECTS" />
-        <Tab icon={<PersonPinIcon />} label="RESUME" />
-        <Tab icon={<FavoriteIcon />} label="MUSIC" />
-        <Tab icon={<PhoneIcon />} label="CONTACT" />
+          >
+            <Tab icon={<PersonIcon />} label="ABOUT"> 
+        <Link to="About" />
+        </Tab>
+        <Tab icon={<WorkIcon/>} label="PROJECTS" />
+        <Tab icon={<FileCopyIcon />} label="RESUME" />
+        <Tab icon={<AudiotrackIcon />} label="MUSIC" />
+        <Tab icon={<MailIcon />} label="CONTACT" />
       </Tabs>
-    </Paper>
+        </Toolbar>
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
       <ScrollTop {...props}>
