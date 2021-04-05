@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import Link from 'react-router-dom';
 import Header from './components/Header/Header'
 import About from './screens/About/About'
 import Projects from './components/Projects/Projects'
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <About />
+        <About id="About" />
         <Projects />
         <Resume />
         <Contact />

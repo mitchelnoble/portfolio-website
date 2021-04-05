@@ -126,4 +126,4 @@ const Projects = () => {
   );
 };
 
-export default ProjectDetail;
+export default Projects;

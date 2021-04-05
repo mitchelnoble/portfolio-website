@@ -74,7 +74,6 @@ export default function BackToTop(props) {
         aria-label="icon label tabs example"
           >
             <Tab icon={<PersonIcon />} label="ABOUT"> 
-        <Link to="About" />
         </Tab>
         <Tab icon={<WorkIcon/>} label="PROJECTS" />
         <Tab icon={<FileCopyIcon />} label="RESUME" />
