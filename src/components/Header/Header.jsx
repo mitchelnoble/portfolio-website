@@ -2,12 +2,19 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Fab from '@material-ui/core/Fab';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Zoom from '@material-ui/core/Zoom';
+import PersonIcon from '@material-ui/icons/Person';
+import MailIcon from '@material-ui/icons/Mail';
+import AudiotrackIcon from '@material-ui/icons/Audiotrack';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
+import WorkIcon from '@material-ui/icons/Work';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -33,6 +40,7 @@ function ScrollTop(props) {
     }
   };
 
+
   return (
     <Zoom in={trigger}>
       <div onClick={handleClick} role="presentation" className={classes.root}>
@@ -43,6 +51,13 @@ function ScrollTop(props) {
 }
 
 export default function BackToTop(props) {
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
   return (
     <>
       <CssBaseline />
@@ -50,6 +65,22 @@ export default function BackToTop(props) {
         <Toolbar>
           <Typography variant="h6">Mitchel Noble</Typography>
         </Toolbar>
+        <Paper square className={classes.root}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        variant="fullWidth"
+        indicatorColor="secondary"
+        textColor="secondary"
+        aria-label="icon label tabs example"
+      >
+        <Tab icon={<PhoneIcon />} label="ABOUT" />
+        <Tab icon={<FavoriteIcon />} label="PROJECTS" />
+        <Tab icon={<PersonPinIcon />} label="RESUME" />
+        <Tab icon={<FavoriteIcon />} label="MUSIC" />
+        <Tab icon={<PhoneIcon />} label="CONTACT" />
+      </Tabs>
+    </Paper>
       </AppBar>
       <Toolbar id="back-to-top-anchor" />
       <ScrollTop {...props}>
