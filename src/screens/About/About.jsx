@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 
 export default function About() {
   return (
-    <>
+    <div id="about">
       <Typography variant="h3">About Me</Typography>
       <Typography>
         I am a professional musician and Software Engineer. Creative, sincere,
@@ -37,6 +37,6 @@ export default function About() {
           <i class="devicon-postgresql-plain-wordmark colored"></i>
         </Typography>
       </Grid>
-    </>
+    </div>
   );
 }

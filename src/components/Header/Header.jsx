@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -73,12 +73,21 @@ export default function BackToTop(props) {
         textColor="white"
         aria-label="icon label tabs example"
           >
-            <Tab icon={<PersonIcon />} label="ABOUT"> 
-        </Tab>
-        <Tab icon={<WorkIcon/>} label="PROJECTS" />
-        <Tab icon={<FileCopyIcon />} label="RESUME" />
-        <Tab icon={<AudiotrackIcon />} label="MUSIC" />
-        <Tab icon={<MailIcon />} label="CONTACT" />
+            <Link to="about" smooth={true} duration={500} offset={-80}>
+            <Tab icon={<PersonIcon />} label="ABOUT"/>
+              </Link>
+              <Link to="projects" smooth={true} duration={500}>
+            <Tab icon={<WorkIcon />} label="PROJECTS" />
+              </Link>
+            <Link to="resume" smooth={true} duration={500}>
+            <Tab icon={<FileCopyIcon />} label="RESUME" />
+            </Link>
+            <Link to="music" smooth={true} duration={500}>
+            <Tab icon={<AudiotrackIcon />} label="MUSIC"/>
+            </Link>
+              <Link to="contact" smooth={true} duration={500}>
+            <Tab icon={<MailIcon />} label="CONTACT" />
+              </Link>
       </Tabs>
         </Toolbar>
       </AppBar>

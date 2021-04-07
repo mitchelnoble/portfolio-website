@@ -21,7 +21,7 @@ export default function Contact() {
   }
 
   return (
-    <>
+    <div id="contact">
       <div className="contact-title-container">
         <h1 className="contact-me-title">Contact Me</h1>
       </div>
@@ -59,6 +59,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 }

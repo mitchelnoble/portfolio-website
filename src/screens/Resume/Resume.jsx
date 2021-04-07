@@ -4,7 +4,7 @@ import Box from "@material-ui/core/Box";
 
 export default function Resume() {
   return (
-    <>
+    <div id="resume">
       <Box>
       <Paper>
         <a
@@ -19,6 +19,6 @@ export default function Resume() {
         </a>
       </Paper>
       </Box>
-    </>
+    </div>
   );
 }

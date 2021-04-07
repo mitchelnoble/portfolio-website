@@ -4,7 +4,7 @@ import '../../styles/components/Music.css'
 
 export default function Music() {
   return (
-    <div className="music-container">
+    <div className="music-container" id="music">
       <div className="producer-description">
         <h1 className="music-title">Music</h1>
         <h3 className="music-description">Under the moniker "Lucental", I have produced original music for a diverse variety of clients in LA, Chicago, and New York ranging from local artists to an off-broadway production.</h3>

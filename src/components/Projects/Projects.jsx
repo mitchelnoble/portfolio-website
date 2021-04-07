@@ -21,7 +21,7 @@ const Projects = () => {
   const classes = useStyles();
 
   return (
-    <>
+    <div id="projects">
     <Typography variant="h3">Projects</Typography>
       <Grid container spacing={3} justify='center'>
         <Grid item xs={3}>
@@ -122,7 +122,7 @@ const Projects = () => {
   </Card>
         </Grid>
       </Grid>
-    </>
+    </div>
   );
 };
 
