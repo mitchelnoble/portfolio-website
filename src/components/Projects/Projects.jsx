@@ -45,7 +45,7 @@ const Projects = () => {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2">
-          Play Price PC
+                  Play Price PC
         </Typography>
         <Typography variant="body1" color="textSecondary" component="p">
         A web application built with solely
@@ -55,12 +55,14 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
+        <Grid container justify="center">   
       <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
           <Button size="small" color="primary" onClick={() => { window.open("https://play-price-pc.netlify.app/")}}>
         Live App
       </Button>
+        </Grid>
     </CardActions>
       </Card>
         </Grid>
@@ -88,12 +90,14 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Button size="small" color="primary" onClick={() => { window.open("https://github.com/enewton3/get-lost")}}>
+    <Grid container justify="center">   
+      <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
-          <Button size="small" color="primary" onClick={() => { window.open("https://get-lost.netlify.app/")}}>
+          <Button size="small" color="primary" onClick={() => { window.open("https://play-price-pc.netlify.app/")}}>
         Live App
       </Button>
+        </Grid>
     </CardActions>
       </Card>
         </Grid>
@@ -121,12 +125,14 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/protozoa-records")}}>
+    <Grid container justify="center">   
+      <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
-          <Button size="small" color="primary" onClick={() => { window.open("https://protozoa-records.netlify.app")}}>
+          <Button size="small" color="primary" onClick={() => { window.open("https://play-price-pc.netlify.app/")}}>
         Live App
       </Button>
+        </Grid>
     </CardActions>
   </Card>
         </Grid>
