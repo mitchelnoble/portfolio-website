@@ -1,13 +1,20 @@
 import React from "react";
-import Paper from "@material-ui/core/Paper";
-import Box from "@material-ui/core/Box";
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+  root: {
+    minHeight: 425,
+    maxHeight: 425,
+    maxWidth: 350,
+  },
+});
 
 export default function Resume() {
+  const classes = useStyles();
+
   return (
     <div id="resume">
-      <Box>
-      <Paper>
-        <a
+        {/* <a
           href="https://www.docdroid.net/oPbR6eh/mitchel-noble-resume-pdf"
           target="blank"
         >
@@ -16,9 +23,7 @@ export default function Resume() {
             alt="Mitchel Noble Resume"
             className="resume-image"
           ></img>
-        </a>
-      </Paper>
-      </Box>
+        </a> */}
     </div>
   );
 }
