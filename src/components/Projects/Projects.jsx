@@ -47,8 +47,8 @@ const Projects = () => {
         <Typography gutterBottom variant="h5" component="h2">
                   Play Price PC
         </Typography>
-        <Typography variant="body1" color="textSecondary" component="p">
-        A web application built with solely
+        <Typography gutterBottom variant="body1" color="textSecondary" component="p">
+        Built with solely
           HTML, CSS, and Javascript that highlights DOM manipulation and pulling
           data from third-party API's.
         </Typography>
@@ -81,9 +81,8 @@ const Projects = () => {
         <Typography gutterBottom variant="h5" component="h2">
           Get Lost
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
-        A full-stack application with full
-          CRUD, authorization, and a shopping cart system using
+        <Typography variant="subtitle2" color="textSecondary" component="p">
+        Full CRUD, authorization, and a shopping cart system using
           local storage. Built with a team
           of 3 other individuals using the Github "Gitflow" model.
         </Typography>
@@ -116,11 +115,10 @@ const Projects = () => {
         <Typography gutterBottom variant="h5" component="h2">
           Protozoa Records
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="p">
-        A full-stack, full CRUD web
-          application developed with React client-side and Ruby on Rails
-          server-side. Along with responsive styling, the site also features
-          front-end and back-end Authentication.
+        <Typography gutterBottom variant="subtitle2" color="textSecondary" component="p">
+        Full CRUD web
+          application built using React on Rails with client-side and server-side
+          Authentication.
         </Typography>
       </CardContent>
     </CardActionArea>
