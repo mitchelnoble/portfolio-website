@@ -14,12 +14,12 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid'
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    minHeight: 425,
-    maxHeight: 425,
-    maxWidth: 350,
+  cardContent: {
     width: '100%',
+    padding: 0,
+    borderRadius: 0,
   },
+
     heading: {
       fontSize: theme.typography.pxToRem(15),
       fontWeight: theme.typography.fontWeightRegular,
@@ -34,7 +34,7 @@ const Projects = () => {
     <Typography variant="h3">Projects</Typography>
       <Grid container spacing={3} justify='center'>
         <Grid item xs={3}>
-    <Card className={classes.root}>
+          <Card className={classes.root} >
     <CardActionArea>
       <CardMedia
         component="img"
@@ -43,15 +43,23 @@ const Projects = () => {
         image="https://i.imgur.com/OGXrFcD.gif"
         title="Play Price PC"
       />
-      <CardContent>
+              <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                  >
         <Typography gutterBottom variant="h5" component="h2">
                   Play Price PC
         </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
         <Typography gutterBottom variant="body1" color="textSecondary" component="p">
         Built with solely
           HTML, CSS, and Javascript that highlights DOM manipulation and pulling
           data from third-party API's.
         </Typography>
+                  </AccordionDetails>
+                </Accordion>
       </CardContent>
     </CardActionArea>
     <CardActions>
@@ -67,7 +75,7 @@ const Projects = () => {
       </Card>
         </Grid>
       
-        <Grid item xs={3}>
+        <Grid item xs={3} direction="column" justify="space-between">
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -77,19 +85,27 @@ const Projects = () => {
         image="https://i.imgur.com/sWQhG2f.gif"
         title="Get Lost"
       />
-      <CardContent>
+                    <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                  >
         <Typography gutterBottom variant="h5" component="h2">
-          Get Lost
+                      Get Lost
         </Typography>
+        </AccordionSummary>
+                  <AccordionDetails>
         <Typography variant="subtitle2" color="textSecondary" component="p">
-        Full CRUD, authorization, and a shopping cart system using
-          local storage. Built with a team
-          of 3 other individuals using the Github "Gitflow" model.
+                      Full CRUD, authorization, and a shopping cart system using
+                      local storage. Built with a team
+                      of 3 other individuals using the Github "Gitflow" model.
         </Typography>
+        </AccordionDetails>
+                </Accordion>
       </CardContent>
     </CardActionArea>
     <CardActions>
-    <Grid container justify="center">   
+      <Grid container justify="center">   
       <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
@@ -101,7 +117,7 @@ const Projects = () => {
       </Card>
         </Grid>
       
-        <Grid item xs={3}>
+        <Grid item xs={3} justify='space-around'>
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -111,15 +127,23 @@ const Projects = () => {
         image="https://i.imgur.com/RGIkLzn.gif"
         title="Get Lost"
       />
-      <CardContent>
+                    <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                  >
         <Typography gutterBottom variant="h5" component="h2">
-          Protozoa Records
+                      Protozoa Records
         </Typography>
-        <Typography gutterBottom variant="subtitle2" color="textSecondary" component="p">
-        Full CRUD web
-          application built using React on Rails with client-side and server-side
-          Authentication.
+        </AccordionSummary>
+                  <AccordionDetails>
+        <Typography gutterBottom variant="subtitle1" color="textSecondary" component="p">
+                      Full CRUD web
+                      application built using React on Rails with client-side and server-side
+                      Authentication.
         </Typography>
+        </AccordionDetails>
+                </Accordion>
       </CardContent>
     </CardActionArea>
     <CardActions>
