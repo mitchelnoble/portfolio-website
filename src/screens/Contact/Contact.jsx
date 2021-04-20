@@ -1,6 +1,8 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "../../styles/screens/Contact.css";
+import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
 
 export default function Contact() {
   function sendEmail(e) {
@@ -22,10 +24,9 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <div className="contact-title-container">
-        <h1 className="contact-me-title">Contact Me</h1>
-      </div>
-
+      <Paper elevation={4}>
+        <br /> <br />
+        <Typography variant='h3'>Contact Me</Typography>
       <div className="form-and-details">
         <div className="contact-form">
           <form onSubmit={sendEmail} className="the-form">
@@ -34,19 +35,19 @@ export default function Contact() {
               className="name-box"
               placeholder="Name"
               name="name"
-            />
+              />
             <input
               type="text"
               className="email-box"
               placeholder="Email"
               name="email"
-            />
+              />
             <input
               type="text"
               className="subject-box"
               placeholder="Subject"
               name="subject"
-            />
+              />
             <textarea
               className="text-box"
               id=""
@@ -54,11 +55,12 @@ export default function Contact() {
               rows="12"
               placeholder="Your Message"
               name="message"
-            />
+              />
             <input type="submit" className="submit-button" value="Send" />
           </form>
         </div>
       </div>
+              </Paper>
     </div>
   );
 }

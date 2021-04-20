@@ -1,10 +1,12 @@
 import React from "react";
+import '../../styles/screens/Projects.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import Paper from '@material-ui/core/Paper';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
@@ -17,9 +19,10 @@ const useStyles = makeStyles((theme) => ({
   cardContent: {
     width: '100%',
     padding: 0,
-    borderRadius: 0,
   },
-
+  accordion: {
+    justifyContent: 'center',
+  },
     heading: {
       fontSize: theme.typography.pxToRem(15),
       fontWeight: theme.typography.fontWeightRegular,
@@ -31,7 +34,12 @@ const Projects = () => {
 
   return (
     <div id="projects">
-    <Typography variant="h3">Projects</Typography>
+      <Paper elevation={4}>
+        <br />
+        <br />
+      <Typography variant="h3">Projects</Typography>
+      <br />
+      <br />
       <Grid container spacing={3} justify='center'>
         <Grid item xs={3}>
           <Card className={classes.root} >
@@ -63,7 +71,7 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
-        <Grid container justify="center">   
+        <Grid container justify="space-around">   
       <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
@@ -85,11 +93,12 @@ const Projects = () => {
         image="https://i.imgur.com/sWQhG2f.gif"
         title="Get Lost"
       />
-                    <CardContent className={classes.cardContent}>
+                <CardContent className={classes.cardContent}>
                 <Accordion>
-                  <AccordionSummary
+                    <AccordionSummary
+                      className={classes.accordion}
                     expandIcon={<ExpandMoreIcon />}
-                  >
+                    >
         <Typography gutterBottom variant="h5" component="h2">
                       Get Lost
         </Typography>
@@ -105,7 +114,7 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Grid container justify="center">   
+      <Grid container justify="space-around">   
       <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
@@ -147,7 +156,7 @@ const Projects = () => {
       </CardContent>
     </CardActionArea>
     <CardActions>
-    <Grid container justify="center">   
+    <Grid container justify="space-around">   
       <Button size="small" color="primary" onClick={() => { window.open("https://github.com/mitchelnoble/Play-Price-PC")}}>
         Github
       </Button>
@@ -158,7 +167,10 @@ const Projects = () => {
     </CardActions>
   </Card>
         </Grid>
-      </Grid>
+        </Grid>
+        <br />
+        <br />
+      </Paper>
     </div>
   );
 };
