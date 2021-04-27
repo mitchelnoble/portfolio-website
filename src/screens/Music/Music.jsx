@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography'
 export default function Music() {
   return (
     <div className="music-container" id="music">
-      <Paper elevation={4}>
+      <Paper elevation={5}>
         <br /> <br />
         <Typography variant='h3'>Music</Typography>
         <br /> 

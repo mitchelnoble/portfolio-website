@@ -24,7 +24,7 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <Paper elevation={4}>
+      <Paper elevation={5}>
         <br /> <br />
         <Typography variant='h3'>Contact Me</Typography>
       <div className="form-and-details">

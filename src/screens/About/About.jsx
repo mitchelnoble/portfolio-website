@@ -5,16 +5,17 @@ import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles({
   header: {   
     margin: 0,
     padding: 0,
   },
-  card: {
-    margin: 0,
-    border: "thin solid black",
-    fontSize: "5em",
+  button: {
+    fontSize: "4rem",
+    background: "none",
+    borderRadius: "0.7rem",
   },
   background: {
     height: 1000,
@@ -32,8 +33,8 @@ export default function About() {
             image="https://i.imgur.com/iC9isWx.png">
             
             <br /> <br />
-            <Typography variant="h2">MITCHEL NOBLE</Typography>
-               <br />
+            <Button variant="outlined" size="large" class={classes.button} >MITCHEL NOBLE</Button>
+               <br /> <br />
       <Typography variant="h3">SOFTWARE ENGINEER & MUSIC PRODUCER</Typography>
             <br /> <br />
             <Container>

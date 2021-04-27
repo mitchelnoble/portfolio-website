@@ -37,7 +37,7 @@ const Projects = () => {
       <Paper elevation={4}>
         <br />
         <br />
-      <Typography variant="h3">Projects</Typography>
+      <Typography variant="h3">PROJECTS</Typography>
       <br />
       <br />
       <Grid container spacing={3} justify='center'>
