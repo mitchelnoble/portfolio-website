@@ -26,7 +26,7 @@ export default function Contact() {
     <div id="contact">
       <Paper elevation={5}>
         <br /> <br />
-        <Typography variant='h3'>Contact Me</Typography>
+        <Typography variant='h3'>CONTACT</Typography>
       <div className="form-and-details">
         <div className="contact-form">
           <form onSubmit={sendEmail} className="the-form">

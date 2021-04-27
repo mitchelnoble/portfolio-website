@@ -9,7 +9,7 @@ export default function Music() {
     <div className="music-container" id="music">
       <Paper elevation={5}>
         <br /> <br />
-        <Typography variant='h3'>Music</Typography>
+        <Typography variant='h3'>MUSIC</Typography>
         <br /> 
         <Typography variant='subtitle1'>Under the moniker "Lucental", I have produced original music for a diverse variety of clients in LA, Chicago, and New York ranging from local artists to an off-broadway production.</Typography>
         <br />
