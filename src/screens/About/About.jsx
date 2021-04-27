@@ -1,51 +1,59 @@
 import React from "react";
 import '../../styles/screens/About.css'
-import Grid from "@material-ui/core/Grid";
+import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
+import Card from "@material-ui/core/Card";
+import CardMedia from "@material-ui/core/CardMedia";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  header: {   
+    margin: 0,
+    padding: 0,
+  },
+  card: {
+    margin: 0,
+    border: "thin solid black",
+    fontSize: "5em",
+  },
+  background: {
+    height: 1000,
+    width: 1000,
+  },
+});
 
 export default function About() {
+  const classes = useStyles();
   return (
     <div id="about">
-      <Paper elevation={4}>
-      <br/> <br />
-      <Typography variant="h3">About Me</Typography>
-      <br /> <br />
-        <Typography>
-        I am a professional musician and Software Engineer. Creative, sincere,
-        and reliable, I channel the same passion that produces and performs
-        music into programming full-stack applications. I seek the opportunity
-        to join an innovative company to grow my skills as a Software Engineer.
+      <Container maxWidth='xl' maxHeight='xl' class={classes.header}>
+        <Card>
+          <CardMedia
+            image="https://i.imgur.com/iC9isWx.png">
+            
+            <br /> <br />
+            <Typography variant="h2">MITCHEL NOBLE</Typography>
+               <br />
+      <Typography variant="h3">SOFTWARE ENGINEER & MUSIC PRODUCER</Typography>
+            <br /> <br />
+            <Container>
+            <Typography variant="h5">
+                I am a professional musician and Software Engineer. Creative, sincere,
+                and reliable, I channel the same passion that produces and performs
+                music into programming full-stack applications.
+        <br />
+        <br />
+        I have worked with local artists in New York, Chicago, and Los Angeles to: write, record, edit, and perform original music. 
+        <br />
+        <br />
+        I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
+        <br />
+        <br />
       </Typography>
-
-      <br /> <br />
-      <Typography variant="h3">Languages & Frameworks</Typography>
-      <br /> <br />
-      <Grid container direction="column" justify="space-between">
-        <Typography variant="h2">
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-        </Typography>
-      </Grid>
-
-      <Grid container direction="column" justify="space-between">
-        <Typography variant="h2">
-          <i class="devicon-nodejs-plain-wordmark colored"></i>
-          <i class="devicon-express-original-wordmark colored"></i>
-          <i class="devicon-react-original-wordmark colored"></i>
-        </Typography>
-      </Grid>
-
-      <Grid container direction="column">
-        <Typography variant="h2">
-          <i class="devicon-ruby-plain-wordmark colored"></i>
-          <i class="devicon-rails-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          </Typography>
-          <br/> <br/>
-        </Grid>
-        </Paper>
+            </Container>
+            </CardMedia>
+      </Card>
+        </Container>
     </div>
   );
 }
