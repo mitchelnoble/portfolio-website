@@ -6,6 +6,8 @@ import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import ListAltIcon from '@material-ui/icons/ListAlt';
+import MusicVideoIcon from '@material-ui/icons/MusicVideo';
 
 const useStyles = makeStyles({
   header: {   
@@ -38,19 +40,27 @@ export default function About() {
       <Typography variant="h3">SOFTWARE ENGINEER & MUSIC PRODUCER</Typography>
             <br /> <br />
             <Container>
-            <Typography variant="h5">
+            <Typography variant="h4">
                 I am a professional musician and Software Engineer. Creative, sincere,
                 and reliable, I channel the same passion that produces and performs
                 music into programming full-stack applications.
-        <br />
-        <br />
-        I have worked with local artists in New York, Chicago, and Los Angeles to: write, record, edit, and perform original music. 
-        <br />
-        <br />
-        I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
-        <br />
-        <br />
       </Typography>
+        <br />
+                <br />
+                <Typography variant="h4">
+                <MusicVideoIcon fontSize="large" />
+                <br />
+        I have worked with local artists in New York, Chicago, and Los Angeles to: write, record, edit, and perform original music. 
+                </Typography>
+        <br />
+                <br />
+                <Typography variant="h4">
+                <ListAltIcon fontSize="large" />
+                <br />
+       I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
+                </Typography>
+        <br />
+        <br />
             </Container>
             </CardMedia>
       </Card>
