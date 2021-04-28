@@ -48,16 +48,16 @@ export default function About() {
         <br />
                 <br />
                 <Typography variant="h4">
-                <MusicVideoIcon fontSize="large" />
+                <ListAltIcon fontSize="large" />
                 <br />
-        I have worked with local artists in New York, Chicago, and Los Angeles to: write, record, edit, and perform original music. 
+       I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
                 </Typography>
         <br />
                 <br />
                 <Typography variant="h4">
-                <ListAltIcon fontSize="large" />
+                <MusicVideoIcon fontSize="large" />
                 <br />
-       I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
+        I have worked with local artists in New York, Chicago, and Los Angeles to: write, record, edit, and perform original music. 
                 </Typography>
         <br />
         <br />
