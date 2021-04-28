@@ -41,7 +41,7 @@ const Projects = () => {
       <br />
       <br />
       <Grid container spacing={3} justify='center'>
-        <Grid item xs={3}>
+          <Grid item xs={10} md={3}>
           <Card className={classes.root} >
     <CardActionArea>
       <CardMedia
@@ -83,7 +83,7 @@ const Projects = () => {
       </Card>
         </Grid>
       
-        <Grid item xs={3} direction="column" justify="space-between">
+        <Grid item xs={10} md={3} direction="column" justify="space-between">
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
@@ -126,7 +126,7 @@ const Projects = () => {
       </Card>
         </Grid>
       
-        <Grid item xs={3} justify='space-around'>
+        <Grid item xs={10} md={3} justify='space-around'>
     <Card className={classes.root}>
     <CardActionArea>
       <CardMedia
