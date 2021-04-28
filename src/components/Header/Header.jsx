@@ -67,10 +67,10 @@ export default function BackToTop(props) {
       <Grid container>
         <AppBar>
           <Toolbar>
-            <Grid item xs={3}>
+            <Grid item xs={0} sm={0} md={2}>
               <Typography variant="h6">Mitchel Noble</Typography>
             </Grid>
-            <Grid container xs={9} justify="flex-end">
+            <Grid container xs={9} sm={9} md={10} justify="flex-end">
               <Tabs
                 value={value}
                 onChange={handleChange}
@@ -82,11 +82,11 @@ export default function BackToTop(props) {
                 <Link to="about" smooth={true} duration={500} offset={-80}>
                   <Tab icon={<PersonIcon />} label="ABOUT" />
                 </Link>
+                <Link to="skills" smooth={true} duration={500}>
+                  <Tab icon={<FileCopyIcon />} label="SKILLS" />
+                </Link>
                 <Link to="projects" smooth={true} duration={500}>
                   <Tab icon={<WorkIcon />} label="PROJECTS" />
-                </Link>
-                <Link to="resume" smooth={true} duration={500}>
-                  <Tab icon={<FileCopyIcon />} label="RESUME" />
                 </Link>
                 <Link to="music" smooth={true} duration={500}>
                   <Tab icon={<AudiotrackIcon />} label="MUSIC" />

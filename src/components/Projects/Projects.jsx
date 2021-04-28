@@ -6,7 +6,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Paper from '@material-ui/core/Paper';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
@@ -19,6 +18,11 @@ const useStyles = makeStyles((theme) => ({
   cardContent: {
     width: '100%',
     padding: 0,
+  },
+  buttonTitle: {
+    fontSize: "4rem",
+    background: "none",
+    borderRadius: "0.7rem",
   },
   accordion: {
     justifyContent: 'center',
@@ -34,10 +38,9 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <Paper elevation={4}>
         <br />
         <br />
-      <Typography variant="h3">PROJECTS</Typography>
+      <Button class={classes.buttonTitle}>PROJECTS</Button>
       <br />
       <br />
       <Grid container spacing={3} justify='center'>
@@ -104,7 +107,7 @@ const Projects = () => {
         </Typography>
         </AccordionSummary>
                   <AccordionDetails>
-        <Typography variant="subtitle2" color="textSecondary" component="p">
+        <Typography variant="subtitle1" color="textSecondary" component="p">
                       Full CRUD, authorization, and a shopping cart system using
                       local storage. Built with a team
                       of 3 other individuals using the Github "Gitflow" model.
@@ -170,7 +173,6 @@ const Projects = () => {
         </Grid>
         <br />
         <br />
-      </Paper>
     </div>
   );
 };
