@@ -21,9 +21,9 @@ function App() {
       
       <Resume />
       
-      <Contact />
-      
       <Music />
+      
+      <Contact />
       
     </div>
   );

@@ -1,8 +1,16 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "../../styles/screens/Contact.css";
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
+import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
+
+const useStyles = makeStyles({
+  button: {
+    fontSize: "4rem",
+    background: "none",
+    borderRadius: "0.7rem",
+  },
+});
 
 export default function Contact() {
   function sendEmail(e) {
@@ -22,11 +30,12 @@ export default function Contact() {
     e.target.reset();
   }
 
+  const classes = useStyles();
+
   return (
     <div id="contact">
-      <Paper elevation={5}>
         <br /> <br />
-        <Typography variant='h3'>CONTACT</Typography>
+        <Button variant="outlined" size="large" class={classes.button} >CONTACT</Button>
       <div className="form-and-details">
         <div className="contact-form">
           <form onSubmit={sendEmail} className="the-form">
@@ -60,7 +69,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-              </Paper>
     </div>
   );
 }

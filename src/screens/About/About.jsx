@@ -50,7 +50,7 @@ export default function About() {
                 <Typography variant="h4">
                 <ListAltIcon fontSize="large" />
                 <br />
-       I am a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
+       I'm a graduate from General Assembly's Software Engineering Immersive program with experience in the MERN technology stack.
                 </Typography>
         <br />
                 <br />
