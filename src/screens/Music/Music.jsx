@@ -26,26 +26,29 @@ export default function Music() {
         <Button variant="outlined" size="large" class={classes.button} >MUSIC</Button>
         <br /> 
         <br /> 
-        <Typography variant='h5'>Under the moniker "Lucental", I have produced original music for a diverse variety of clients in LA, Chicago, and New York ranging from local artists to off-broadway productions.</Typography>
+      <Typography variant='h5'>Under the moniker "Lucental", I have produced original music for a diverse variety of clients in LA, Chicago, and New York ranging from local artists to off-broadway productions.</Typography>
+      <hr />
       <br />
       <Grid container direction="row" justify="space-evenly">
-        <Grid item >
+        <Grid xs={12}sm={5}>
         <Paper>
         <ReactPlayer
           url="https://soundcloud.com/mitchelparkernoble/sets/for-games"
           className="soundcloud-react-player"
             width="100%"
-        />
+            />
       </Paper>
+            <Typography variant="h6" paragraph={true}>A collection of instrumentals created for a discord role-playing game.</Typography>
         </Grid>
-        <Grid item >
+        <Grid xs={12} sm={5}>
           <Paper>
           <ReactPlayer
-          url="https://www.rebirthofrabbitsfoot.com/music"
-          className="squarespace-react-player"
+          url="https://soundcloud.com/mitchelparkernoble/sets/rebirth-of-rabbits-foot"
+          className="soundcloud-react-player"
             width="100%"
-        />
+            />
       </Paper>
+            <Typography variant="h6" paragraph={true}>A collection of instrumentals created for the online/off-broadway show "Rebirth of Rabbits Foot".</Typography>
         </Grid>
       </Grid>
       <br />
