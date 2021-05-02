@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     borderRadius: 5,
     color: 'white',
     padding: '0 30px',
+    marginBottom: '0.5em', 
   },
   input: {
     width: "80%",
@@ -45,9 +46,9 @@ export default function Contact() {
 
   return (
     <div id="contact">
+      <br />
+      <br />
       <Button class={classes.button}>CONTACT</Button>
-      <br />
-      <br />
       <Typography variant="h6">MitchelParkerNoble@gmail.com</Typography>
       <hr />
 

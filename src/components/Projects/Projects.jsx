@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 5,
     color: 'white',
     padding: '0 30px',
+    marginBottom: '1em', 
   },
   accordion: {
     justifyContent: 'center',
@@ -44,8 +45,6 @@ const Projects = () => {
         <br />
         <br />
       <Button class={classes.button}>PROJECTS</Button>
-      <br />
-      <br />
       <Grid container spacing={3} justify='center'>
           <Grid item xs={10} md={3}>
           <Card className={classes.root} >

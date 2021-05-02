@@ -73,7 +73,7 @@ export default function BackToTop(props) {
       <CssBaseline />
       <Grid container>
         <AppBar>
-          <Toolbar>
+          <Toolbar disableGutters>
             <Grid item xs={2} md={2}>
               <Typography variant="h6">Mitchel Noble</Typography>
             </Grid>

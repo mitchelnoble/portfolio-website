@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import GridList from "@material-ui/core/GridList";
+import Box from "@material-ui/core/Box";
 import "../../styles/screens/Skills.css";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
@@ -22,6 +23,7 @@ export default function Skills() {
 
   return (
     <div id="skills">
+      <br />
       <br />
       <Button class={classes.button}>SKILLS</Button>
       <br />

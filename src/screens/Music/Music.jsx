@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     borderRadius: 5,
     color: 'white',
     padding: '0 30px',
+    marginBottom: '0.5em', 
   },
   player: {
     height: "50em",
@@ -27,8 +28,6 @@ export default function Music() {
     <div className="music-container" id="music">
         <br /> <br />
         <Button variant="outlined" size="large" class={classes.button} >MUSIC</Button>
-        <br /> 
-        <br /> 
       <Typography variant='h5'>Under the moniker "Lucental", I have produced original music for a diverse variety of clients in LA, Chicago, and New York ranging from local artists to off-broadway productions.</Typography>
       <hr />
       <br />
