@@ -38,10 +38,10 @@ export default function Contact() {
 
   return (
     <div id="contact">
-        <br /> <br />
       <Button variant="outlined" size="large" class={classes.button} >CONTACT</Button>
+        <br /> <br />
           <form className="the-form">
-      <Grid container direction="column" justify="centered">
+        <Grid container direction="column" alignItems="center">
             <Input
               type="text"
 
@@ -61,11 +61,11 @@ export default function Contact() {
               name="subject"
               />
         <TextField
-            multiline
             placeholder="Message"
+            multiline
           rows={5}
           />
-          <Grid item xs={1}>
+          <Grid xs={1}>
         <Button
           onClick={() => { sendEmail() }}
           variant="contained"
