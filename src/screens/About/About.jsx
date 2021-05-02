@@ -16,8 +16,11 @@ const useStyles = makeStyles({
   },
   button: {
     fontSize: "4rem",
-    background: "none",
-    borderRadius: "0.7rem",
+    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    border: 0,
+    borderRadius: 5,
+    color: 'white',
+    padding: '0 30px',
   },
   background: {
     height: 1000,

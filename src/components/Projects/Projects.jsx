@@ -19,10 +19,13 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     padding: 0,
   },
-  buttonTitle: {
+  button: {
     fontSize: "4rem",
-    background: "none",
-    borderRadius: "0.7rem",
+    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    border: 0,
+    borderRadius: 5,
+    color: 'white',
+    padding: '0 30px',
   },
   accordion: {
     justifyContent: 'center',
@@ -40,7 +43,7 @@ const Projects = () => {
     <div id="projects">
         <br />
         <br />
-      <Button class={classes.buttonTitle}>PROJECTS</Button>
+      <Button class={classes.button}>PROJECTS</Button>
       <br />
       <br />
       <Grid container spacing={3} justify='center'>

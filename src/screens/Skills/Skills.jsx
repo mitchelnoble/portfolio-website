@@ -7,10 +7,13 @@ import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
-  buttonTitle: {
+  button: {
     fontSize: "4rem",
-    background: "none",
-    borderRadius: "0.7rem",
+    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    border: 0,
+    borderRadius: 5,
+    color: 'white',
+    padding: '0 30px',
   },
 });
 
@@ -20,7 +23,7 @@ export default function Skills() {
   return (
     <div id="skills">
       <br />
-      <Button class={classes.buttonTitle}>SKILLS</Button>
+      <Button class={classes.button}>SKILLS</Button>
       <br />
       <br />
       <Grid container direction="column" justify="space-evenly">

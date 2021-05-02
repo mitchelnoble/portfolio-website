@@ -10,8 +10,11 @@ import Paper from "@material-ui/core/Paper";
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
-    background: "none",
-    borderRadius: "0.7rem",
+    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    border: 0,
+    borderRadius: 5,
+    color: 'white',
+    padding: '0 30px',
   },
   player: {
     height: "50em",
@@ -37,8 +40,9 @@ export default function Music() {
           className="soundcloud-react-player"
             width="100%"
             />
-      </Paper>
-            <Typography variant="h6" paragraph={true}>A collection of instrumentals created for a discord role-playing game.</Typography>
+          </Paper>
+          <br />
+            <Typography variant="h6" paragraph={true}>Various background instrumentals for a discord role-playing game.</Typography>
         </Grid>
         <Grid xs={12} sm={5}>
           <Paper>
@@ -47,7 +51,8 @@ export default function Music() {
           className="soundcloud-react-player"
             width="100%"
             />
-      </Paper>
+          </Paper>
+          <br />
             <Typography variant="h6" paragraph={true}>A collection of instrumentals created for the online/off-broadway show "Rebirth of Rabbits Foot".</Typography>
         </Grid>
       </Grid>

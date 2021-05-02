@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+import Button from "@material-ui/core/Button";
+import IconButton from "@material-ui/core/IconButton";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
@@ -17,6 +19,8 @@ import MailIcon from "@material-ui/icons/Mail";
 import AudiotrackIcon from "@material-ui/icons/Audiotrack";
 import FileCopyIcon from "@material-ui/icons/FileCopy";
 import WorkIcon from "@material-ui/icons/Work";
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
     bottom: theme.spacing(2),
     right: theme.spacing(2),
   },
+  button: {
+    color: "lightgrey",
+  }
 }));
 
 function ScrollTop(props) {
@@ -67,10 +74,19 @@ export default function BackToTop(props) {
       <Grid container>
         <AppBar>
           <Toolbar>
-            <Grid item xs={0} sm={0} md={2}>
+            <Grid item xs={2} md={2}>
               <Typography variant="h6">Mitchel Noble</Typography>
             </Grid>
-            <Grid container xs={9} sm={9} md={10} justify="flex-end">
+            <Grid item xs={5}>
+            <IconButton className={classes.button} color="default" onClick={() => { window.open("https://play-price-pc.netlify.app/") }}>
+        <GitHubIcon />
+      </IconButton>
+      <IconButton className={classes.button} color="default" onClick={() => { window.open("https://play-price-pc.netlify.app/") }}>
+        <LinkedInIcon />
+      </IconButton>
+          <Button className={classes.button} color="default" onClick={() => { window.open("https://docdro.id/oPbR6eh") }}>Resume</Button>
+            </Grid>
+            <Grid container xs={5} md={8} justify="flex-end">
               <Tabs
                 value={value}
                 onChange={handleChange}
