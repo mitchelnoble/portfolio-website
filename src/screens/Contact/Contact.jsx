@@ -1,18 +1,16 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "../../styles/screens/Contact.css";
+import { Button, Box, TextField, Input } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Input from "@material-ui/core/Input";
-import SendIcon from '@material-ui/icons/Send';
-import TextField from "@material-ui/core/TextField";
-import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
     background: "none",
     borderRadius: "0.7rem",
+  },
+  input: {
+    width: "80%",
   },
 });
 
@@ -38,44 +36,39 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <Button variant="outlined" size="large" class={classes.button} >CONTACT</Button>
-        <br /> <br />
-          <form className="the-form">
-        <Grid container direction="column" alignItems="center">
+      <Button class={classes.button}>Contact Me</Button>
+      <br />
+      <br />
+          <form onSubmit={sendEmail} className="the-form">
             <Input
               type="text"
-
+              className={classes.input}
               placeholder="Name"
               name="name"
-              />
+            />
             <Input
               type="text"
-
+              className={classes.input}
               placeholder="Email"
               name="email"
-              />
+            />
             <Input
               type="text"
-
+              className={classes.input}
               placeholder="Subject"
               name="subject"
-              />
-        <TextField
-            placeholder="Message"
-            multiline
-          rows={5}
-          />
-          <Grid xs={1}>
-        <Button
-          onClick={() => { sendEmail() }}
-          variant="contained"
-          color="primary"
-          endIcon={<SendIcon />}>
-          Send
-          </Button>
-        </Grid>
-      </Grid>
+            />
+            <TextField
+              className={classes.input}
+              multiline
+              rows={12}
+              placeholder="Your Message"
+              name="message"
+        />
+        <br />
+        <br />
+            <Button variant="outlined" type="submit" className="submit-button" value="Send">Send</Button>
           </form>
-        </div>
+    </div>
   );
 }
