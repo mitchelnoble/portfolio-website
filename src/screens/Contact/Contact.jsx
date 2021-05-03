@@ -1,9 +1,9 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import { Button, Typography, TextField, Paper } from "@material-ui/core";
+import { Button, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
-
+import "../../styles/screens/Contact.css";
 
 
 const useStyles = makeStyles({

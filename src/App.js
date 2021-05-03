@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/DesktopHeader";
 import Skills from "./screens/Skills/Skills";
 import About from "./screens/About/About";
 import Projects from "./components/Projects/Projects";
