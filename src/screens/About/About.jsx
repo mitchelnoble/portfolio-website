@@ -22,10 +22,6 @@ const useStyles = makeStyles({
     color: 'white',
     padding: '0 30px',
   },
-  background: {
-    height: 1000,
-    width: 1000,
-  },
 });
 
 export default function About() {
