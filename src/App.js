@@ -13,15 +13,14 @@ function App() {
       <Header />
 
       <About />
-      
+
       <Skills />
 
       <Projects />
-      
+
       <Music />
-      
+
       <Contact />
-      
     </div>
   );
 }
