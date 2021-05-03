@@ -61,7 +61,7 @@ export default function Skills() {
         <i alt="git" class="devicon-git-plain-wordmark colored"></i>
         <i alt="heroku" class="devicon-heroku-line-wordmark colored"></i>
         <i alt="mongodb" class="devicon-mongodb-plain-wordmark colored"></i>
-        <a href="https://icon-library.net/icon/ableton-icon-10.html" alt="Ableton Live Icon" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" width="80" /></a>
+        <a href="https://icon-library.net/icon/ableton-icon-10.html" alt="Ableton Live Icon" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" alt="Ableton Live Icon" width="80" /></a>
         </GridList>
         </Hidden>
         <Hidden smUp>
@@ -88,7 +88,7 @@ export default function Skills() {
         <i alt="git" class="devicon-git-plain-wordmark colored"></i>
         <i alt="heroku" class="devicon-heroku-line-wordmark colored"></i>
         <i alt="mongodb" class="devicon-mongodb-plain-wordmark colored"></i>
-        <a href="https://icon-library.net/icon/ableton-icon-10.html" alt="Ableton Live Icon" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" width="80" /></a>
+        <a href="https://icon-library.net/icon/ableton-icon-10.html" alt="Ableton Live Icon" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" alt="Ableton Live Icon" width="80" /></a>
         </GridList>
         </Hidden>
       </Grid>
