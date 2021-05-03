@@ -5,16 +5,15 @@ import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
 import "../../styles/screens/Contact.css";
 
-
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
-    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    background: "linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
-    color: 'white',
-    padding: '0 30px',
-    marginBottom: '0.5em', 
+    color: "white",
+    padding: "0 30px",
+    marginBottom: "0.5em",
   },
   input: {
     width: "80%",
@@ -53,50 +52,52 @@ export default function Contact() {
       <hr />
 
       <form onSubmit={sendEmail} className="the-form">
-        
-      
-            <TextField
+        <TextField
           type="text"
           className={classes.input}
-              placeholder="Name"
+          placeholder="Name"
           name="name"
           required
-            />
-        
-        
-            <TextField
+        />
+
+        <TextField
           type="text"
           className={classes.input}
-              placeholder="Email"
+          placeholder="Email"
           name="email"
           required
-            />
-        
-        
-            <TextField
+        />
+
+        <TextField
           type="text"
           className={classes.input}
-              placeholder="Subject"
+          placeholder="Subject"
           name="subject"
           required
-          />
-          
-          
+        />
+
         <TextField
           className={classes.input}
-              multiline
+          multiline
           rows={12}
           required
-              placeholder="Your Message"
+          placeholder="Your Message"
           name="message"
-        />  
+        />
 
-        
         <br />
         <br />
-            <Button variant="outlined" color="primary" type="submit" className="submit-button" value="Send" endIcon={<SendIcon />}>Send</Button>
+        <Button
+          variant="outlined"
+          color="primary"
+          type="submit"
+          className="submit-button"
+          value="Send"
+          endIcon={<SendIcon />}
+        >
+          Send
+        </Button>
       </form>
-
 
       <br />
       <br />
