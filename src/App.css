@@ -7,6 +7,12 @@
   overflow-x: hidden
 }
 
+hr {
+  height: 1px;
+  background-color: white;
+  border: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

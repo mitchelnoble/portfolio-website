@@ -4,7 +4,6 @@ import Header from "./components/Header/Header";
 import Skills from "./screens/Skills/Skills";
 import About from "./screens/About/About";
 import Projects from "./components/Projects/Projects";
-import Resume from "./screens/Resume/Resume";
 import Contact from "./screens/Contact/Contact";
 import Music from "./screens/Music/Music";
 
@@ -18,8 +17,6 @@ function App() {
       <Skills />
 
       <Projects />
-      
-      <Resume />
       
       <Music />
       

@@ -78,10 +78,10 @@ export default function BackToTop(props) {
               <Typography variant="h6">Mitchel Noble</Typography>
             </Grid>
             <Grid item xs={5}>
-            <IconButton className={classes.button} color="default" onClick={() => { window.open("https://play-price-pc.netlify.app/") }}>
+            <IconButton className={classes.button} color="default" onClick={() => { window.open("https://github.com/mitchelnoble") }}>
         <GitHubIcon />
       </IconButton>
-      <IconButton className={classes.button} color="default" onClick={() => { window.open("https://play-price-pc.netlify.app/") }}>
+      <IconButton className={classes.button} color="default" onClick={() => { window.open("https://www.linkedin.com/in/mitchel-noble/") }}>
         <LinkedInIcon />
       </IconButton>
           <Button className={classes.button} color="default" onClick={() => { window.open("https://docdro.id/oPbR6eh") }}>Resume</Button>
@@ -98,16 +98,16 @@ export default function BackToTop(props) {
                 <Link to="about" smooth={true} duration={500} offset={-80}>
                   <Tab icon={<PersonIcon />} label="ABOUT" />
                 </Link>
-                <Link to="skills" smooth={true} duration={500}>
+                <Link to="skills" smooth={true} duration={500} offset={-73}>
                   <Tab icon={<FileCopyIcon />} label="SKILLS" />
                 </Link>
-                <Link to="projects" smooth={true} duration={500}>
+                <Link to="projects" smooth={true} duration={500} offset={-70}>
                   <Tab icon={<WorkIcon />} label="PROJECTS" />
                 </Link>
-                <Link to="music" smooth={true} duration={500}>
+                <Link to="music" smooth={true} duration={500} offset={-70}>
                   <Tab icon={<AudiotrackIcon />} label="MUSIC" />
                 </Link>
-                <Link to="contact" smooth={true} duration={500}>
+                <Link to="contact" smooth={true} duration={500} offset={-80}>
                   <Tab icon={<MailIcon />} label="CONTACT" />
                 </Link>
               </Tabs>

@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import GridList from "@material-ui/core/GridList";
-import Box from "@material-ui/core/Box";
 import "../../styles/screens/Skills.css";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
@@ -30,7 +29,6 @@ export default function Skills() {
       <br />
       <Grid container direction="column" justify="space-evenly">
         <Typography variant="h4">
-          <hr />
           Languages & Frameworks
         <hr />
         </Typography>
@@ -49,7 +47,6 @@ export default function Skills() {
         <i alt="material ui" class="devicon-materialui-plain colored"></i>
         </GridList>
         <Typography variant="h4">
-        <hr />
           Tools
         <hr /> 
         </Typography>
@@ -59,7 +56,7 @@ export default function Skills() {
         <i alt="git" class="devicon-git-plain-wordmark colored"></i>
         <i alt="heroku" class="devicon-heroku-line-wordmark colored"></i>
         <i alt="mongodb" class="devicon-mongodb-plain-wordmark colored"></i>
-        <a href="https://icon-library.net/icon/ableton-icon-10.html" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" width="80" /></a>
+        <a href="https://icon-library.net/icon/ableton-icon-10.html" alt="Ableton Live Icon" title="Ableton Icon #126747"><img src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg" width="80" /></a>
         </GridList>
       </Grid>
     </div>
