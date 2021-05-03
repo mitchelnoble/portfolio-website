@@ -1,6 +1,28 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { Button, Typography, TextField } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import SendIcon from "@material-ui/icons/Send";
 import "../../styles/screens/Contact.css";
+
+
+const useStyles = makeStyles({
+  button: {
+    fontSize: "4rem",
+    background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+    border: 0,
+    borderRadius: 5,
+    color: 'white',
+    padding: '0 30px',
+    marginBottom: '0.5em', 
+  },
+  input: {
+    width: "80%",
+  },
+  icon: {
+    fontSize: "5rem",
+  },
+});
 
 export default function Contact() {
   function sendEmail(e) {
@@ -20,45 +42,64 @@ export default function Contact() {
     e.target.reset();
   }
 
-  return (
-    <>
-      <div className="contact-title-container">
-        <h1 className="contact-me-title">Contact Me</h1>
-      </div>
+  const classes = useStyles();
 
-      <div className="form-and-details">
-        <div className="contact-form">
-          <form onSubmit={sendEmail} className="the-form">
-            <input
-              type="text"
-              className="name-box"
+  return (
+    <div id="contact">
+      <br />
+      <br />
+      <Button class={classes.button}>CONTACT</Button>
+      <Typography variant="h6">MitchelParkerNoble@gmail.com</Typography>
+      <hr />
+
+      <form onSubmit={sendEmail} className="the-form">
+        
+      
+            <TextField
+          type="text"
+          className={classes.input}
               placeholder="Name"
-              name="name"
+          name="name"
+          required
             />
-            <input
-              type="text"
-              className="email-box"
+        
+        
+            <TextField
+          type="text"
+          className={classes.input}
               placeholder="Email"
-              name="email"
+          name="email"
+          required
             />
-            <input
-              type="text"
-              className="subject-box"
+        
+        
+            <TextField
+          type="text"
+          className={classes.input}
               placeholder="Subject"
-              name="subject"
-            />
-            <textarea
-              className="text-box"
-              id=""
-              cols="80"
-              rows="12"
+          name="subject"
+          required
+          />
+          
+          
+        <TextField
+          className={classes.input}
+              multiline
+          rows={12}
+          required
               placeholder="Your Message"
-              name="message"
-            />
-            <input type="submit" className="submit-button" value="Send" />
-          </form>
-        </div>
-      </div>
-    </>
+          name="message"
+        />  
+
+        
+        <br />
+        <br />
+            <Button variant="outlined" color="primary" type="submit" className="submit-button" value="Send" endIcon={<SendIcon />}>Send</Button>
+      </form>
+
+
+      <br />
+      <br />
+    </div>
   );
 }

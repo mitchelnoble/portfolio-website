@@ -1,24 +1,21 @@
 .App {
   text-align: center;
   margin: 0 auto;
-  height: 100%;
-  background-image: linear-gradient(
-    to top,
-    rgba(175, 175, 175, 0.3),
-    white,
-    white
-  );
+  max-width: 100%;
+  width: 100;
+  height: 100;
+  overflow-x: hidden
+}
+
+hr {
+  height: 1px;
+  background-color: white;
+  border: none;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
