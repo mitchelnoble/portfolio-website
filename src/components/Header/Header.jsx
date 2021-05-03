@@ -81,7 +81,7 @@ export default function BackToTop(props) {
                 </Hidden>
               </Grid>
               <Grid item sm={2}>
-                <Hidden xsDown>
+                <Hidden smDown>
                 <IconButton className={classes.button} color="default" onClick={() => { window.open("https://github.com/mitchelnoble") }}>
                   <GitHubIcon />
                 </IconButton>
