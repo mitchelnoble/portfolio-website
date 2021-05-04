@@ -8,12 +8,15 @@ import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import MusicVideoIcon from "@material-ui/icons/MusicVideo";
-
+import SyncIcon from '@material-ui/icons/Sync';
 
 const useStyles = makeStyles({
   header: {
     margin: 0,
     padding: 0,
+  },
+  icon: {
+    fontSize: "0.8em",
   },
   button: {
     fontSize: "4rem",
@@ -41,7 +44,11 @@ export default function About() {
             </Button>
             <br /> <br />
             <Typography variant="h3">
-              SOFTWARE ENGINEER | MUSIC PRODUCER
+              SOFTWARE ENGINEER
+              <br />
+              <SyncIcon className={classes.icon} />
+              <br />
+              MUSIC PRODUCER
             </Typography>
             <br /> <br />
             <Container>
