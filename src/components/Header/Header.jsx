@@ -32,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
   button: {
     color: "lightgrey",
   },
+  icon: {
+    fontSize: "2.5em",
+  },
   toTop: {
     zIndex: "1600",
   }
@@ -80,7 +83,7 @@ export default function BackToTop(props) {
           <Toolbar disableGutters>
               <Hidden smDown>
             <Grid item xs={0} sm={1} md={2}>
-                <Typography variant="h6">Mitchel Noble</Typography>
+                <Typography variant="h6">MITCHEL NOBLE</Typography>
             </Grid>
               </Hidden>
               <Hidden smDown>
@@ -125,19 +128,19 @@ export default function BackToTop(props) {
                 aria-label="icon label tabs example"
               >
                 <Link to="about" smooth={true} duration={500} offset={-80}>
-                  <Tab icon={<PersonIcon />} label="ABOUT" />
+                  <Tab icon={<PersonIcon className={classes.icon} />} label="ABOUT" />
                 </Link>
                 <Link to="skills" smooth={true} duration={500} offset={-73}>
-                  <Tab icon={<FileCopyIcon />} label="SKILLS" />
+                  <Tab icon={<FileCopyIcon className={classes.icon} />} label="SKILLS" />
                 </Link>
                 <Link to="projects" smooth={true} duration={500} offset={-70}>
-                  <Tab icon={<WorkIcon />} label="PROJECTS" />
+                  <Tab icon={<WorkIcon className={classes.icon} />} label="PROJECTS" />
                 </Link>
                 <Link to="music" smooth={true} duration={500} offset={-70}>
-                  <Tab icon={<AudiotrackIcon />} label="MUSIC" />
+                  <Tab icon={<AudiotrackIcon className={classes.icon} />} label="MUSIC" />
                 </Link>
                 <Link to="contact" smooth={true} duration={500} offset={-80}>
-                  <Tab icon={<MailIcon />} label="CONTACT" />
+                  <Tab icon={<MailIcon className={classes.icon} />} label="CONTACT" />
                 </Link>
               </Tabs>
             </Grid>
