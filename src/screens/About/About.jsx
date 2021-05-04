@@ -25,6 +25,7 @@ const useStyles = makeStyles({
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
+    margin: "1em 0 0.4em",
   },
 });
 
@@ -43,7 +44,7 @@ export default function About() {
               MITCHEL NOBLE
             </Button>
             <br /> <br />
-            <Typography variant="h3">
+            <Typography variant="h4">
               SOFTWARE ENGINEER
               <br />
               <SyncIcon className={classes.icon} />
@@ -52,14 +53,14 @@ export default function About() {
             </Typography>
             <br /> <br />
             <Container>
-              <Typography variant="h4">
+              <Typography variant="h6">
                 I am a professional musician and Software Engineer. Creative,
                 sincere, and reliable, I channel the same passion that produces
                 and performs music into programming full-stack applications.
               </Typography>
               <br />
               <br />
-              <Typography variant="h4">
+              <Typography variant="h6">
                 <ListAltIcon fontSize="large" />
                 <br />
                 I'm a graduate from General Assembly's Software Engineering
@@ -67,7 +68,7 @@ export default function About() {
               </Typography>
               <br />
               <br />
-              <Typography variant="h4">
+              <Typography variant="h6">
                 <MusicVideoIcon fontSize="large" />
                 <br />I have worked with local artists in New York, Chicago, and
                 Los Angeles to: write, record, edit, and perform original music.

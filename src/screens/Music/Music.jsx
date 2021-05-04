@@ -30,7 +30,7 @@ export default function Music() {
       <Button variant="outlined" size="large" class={classes.button}>
         MUSIC
       </Button>
-      <Typography variant="h5">
+      <Typography variant="h6">
         Under the moniker "Lucental", I have produced original music for a
         diverse variety of clients in LA, Chicago, and New York ranging from
         local artists to off-broadway productions.
@@ -47,7 +47,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h6" paragraph={true}>
+          <Typography variant="h7" paragraph={true}>
             Various background instrumentals for a discord role-playing game.
           </Typography>
         </Grid>
@@ -60,7 +60,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h6" paragraph={true}>
+          <Typography variant="h7" paragraph={true}>
             A collection of instrumentals created for the online/off-broadway
             show "Rebirth of Rabbits Foot".
           </Typography>

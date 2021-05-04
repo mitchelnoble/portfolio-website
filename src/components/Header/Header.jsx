@@ -110,7 +110,7 @@ export default function BackToTop(props) {
                   className={classes.button}
                   color="default"
                   onClick={() => {
-                    window.open("https://docdro.id/oPbR6eh");
+                    window.open("https://drive.google.com/file/d/0B6heteq-4PWfcjRCMUQ5SzZPMm9sS1Q5U0xweDQ1YjFwLXp3/view?usp=sharing");
                   }}
                 >
                   Resume
