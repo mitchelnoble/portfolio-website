@@ -8,7 +8,7 @@ import "../../styles/screens/Contact.css";
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
-    background: "linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)",
+    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
     color: "white",

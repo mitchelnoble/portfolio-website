@@ -32,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
   button: {
     color: "lightgrey",
   },
+  toTop: {
+    zIndex: "1600",
+  }
 }));
 
 function ScrollTop(props) {
@@ -75,13 +78,13 @@ export default function BackToTop(props) {
       <Grid container>
         <AppBar>
           <Toolbar disableGutters>
+              <Hidden smDown>
             <Grid item xs={0} sm={1} md={2}>
-              <Hidden smDown>
                 <Typography variant="h6">Mitchel Noble</Typography>
-              </Hidden>
             </Grid>
-            <Grid item sm={2}>
+              </Hidden>
               <Hidden smDown>
+            <Grid item sm={2}>
                 <IconButton
                   className={classes.button}
                   color="default"
@@ -109,9 +112,9 @@ export default function BackToTop(props) {
                 >
                   Resume
                 </Button>
-              </Hidden>
             </Grid>
-            <Grid container xs={12} sm={10} md={8} justify="flex-end">
+              </Hidden>
+            <Grid container xs={12} md={8} justify="flex-end">
               <Tabs
                 value={value}
                 onChange={handleChange}
@@ -143,7 +146,7 @@ export default function BackToTop(props) {
       </Grid>
       <Toolbar id="back-to-top-anchor" />
       <ScrollTop {...props}>
-        <Fab color="primary" size="small" aria-label="scroll back to top">
+        <Fab className={classes.toTop} color="primary" size="small" aria-label="scroll back to top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>
