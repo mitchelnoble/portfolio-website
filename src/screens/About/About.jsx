@@ -8,7 +8,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import MusicVideoIcon from "@material-ui/icons/MusicVideo";
-import SyncIcon from '@material-ui/icons/Sync';
+import SyncIcon from "@material-ui/icons/Sync";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles({
   header: {
@@ -16,19 +17,22 @@ const useStyles = makeStyles({
     padding: 0,
   },
   icon: {
-    fontSize: "0.8em",
+    fontSize: "2rem",
   },
   button: {
     fontSize: "4rem",
+    fontFamily: "Montserrat",
     background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
+    margin: "1em 0 0.4em",
+  },
+  body: {
+    fontFamily: "Lato",
   },
 });
-
-
 
 export default function About() {
   const classes = useStyles();
@@ -40,26 +44,26 @@ export default function About() {
           <CardMedia image="https://i.imgur.com/iC9isWx.png">
             <br /> <br />
             <Button variant="outlined" size="large" class={classes.button}>
-              MITCHEL NOBLE
+              <Box letterSpacing={5}>MITCHEL NOBLE</Box>
             </Button>
             <br /> <br />
-            <Typography variant="h3">
-              SOFTWARE ENGINEER
-              <br />
+            <Typography variant="h4" className={classes.body}>
+              <Box letterSpacing={8}>SOFTWARE ENGINEER</Box>
+              </Typography>
               <SyncIcon className={classes.icon} />
-              <br />
-              MUSIC PRODUCER
+              <Typography variant="h4" className={classes.body}>
+              <Box letterSpacing={8}>MUSIC PRODUCER</Box>
             </Typography>
             <br /> <br />
             <Container>
-              <Typography variant="h4">
+              <Typography variant="h6" className={classes.body}>
                 I am a professional musician and Software Engineer. Creative,
                 sincere, and reliable, I channel the same passion that produces
                 and performs music into programming full-stack applications.
               </Typography>
               <br />
               <br />
-              <Typography variant="h4">
+              <Typography variant="h6" className={classes.body}>
                 <ListAltIcon fontSize="large" />
                 <br />
                 I'm a graduate from General Assembly's Software Engineering
@@ -67,7 +71,7 @@ export default function About() {
               </Typography>
               <br />
               <br />
-              <Typography variant="h4">
+              <Typography variant="h6" className={classes.body}>
                 <MusicVideoIcon fontSize="large" />
                 <br />I have worked with local artists in New York, Chicago, and
                 Los Angeles to: write, record, edit, and perform original music.
