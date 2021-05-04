@@ -147,7 +147,7 @@ const Projects = () => {
                   color="primary"
                   onClick={() => {
                     window.open(
-                      "https://github.com/mitchelnoble/Play-Price-PC"
+                      "https://github.com/enewton3/get-lost"
                     );
                   }}
                 >
@@ -157,7 +157,7 @@ const Projects = () => {
                   size="small"
                   color="primary"
                   onClick={() => {
-                    window.open("https://play-price-pc.netlify.app/");
+                    window.open("https://get-lost.netlify.app/");
                   }}
                 >
                   Live App
@@ -205,7 +205,7 @@ const Projects = () => {
                   color="primary"
                   onClick={() => {
                     window.open(
-                      "https://github.com/mitchelnoble/Play-Price-PC"
+                      "https://github.com/mitchelnoble/protozoa-records"
                     );
                   }}
                 >
@@ -215,7 +215,7 @@ const Projects = () => {
                   size="small"
                   color="primary"
                   onClick={() => {
-                    window.open("https://play-price-pc.netlify.app/");
+                    window.open("https://protozoa-records.netlify.app");
                   }}
                 >
                   Live App
