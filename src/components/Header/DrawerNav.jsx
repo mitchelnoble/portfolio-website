@@ -112,7 +112,7 @@ export default function PersistentDrawerRight() {
         })}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap className={classes.title}>
+          <Typography variant="subtitle2" noWrap className={classes.title}>
             M I T C H E L &nbsp;&nbsp; N O B L E 
           </Typography>
           <IconButton
