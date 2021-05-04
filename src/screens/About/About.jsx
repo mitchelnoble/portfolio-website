@@ -9,6 +9,7 @@ import Button from "@material-ui/core/Button";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import MusicVideoIcon from "@material-ui/icons/MusicVideo";
 
+
 const useStyles = makeStyles({
   header: {
     margin: 0,
@@ -16,7 +17,7 @@ const useStyles = makeStyles({
   },
   button: {
     fontSize: "4rem",
-    background: "linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)",
+    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
     color: "white",
@@ -24,8 +25,11 @@ const useStyles = makeStyles({
   },
 });
 
+
+
 export default function About() {
   const classes = useStyles();
+
   return (
     <div id="about">
       <Container maxWidth="xl" maxHeight="xl" class={classes.header}>
@@ -37,7 +41,7 @@ export default function About() {
             </Button>
             <br /> <br />
             <Typography variant="h3">
-              SOFTWARE ENGINEER & MUSIC PRODUCER
+              SOFTWARE ENGINEER | MUSIC PRODUCER
             </Typography>
             <br /> <br />
             <Container>
