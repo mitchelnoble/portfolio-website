@@ -10,6 +10,7 @@ import Paper from "@material-ui/core/Paper";
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
+    fontFamily: 'Montserrat',
     background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
@@ -19,6 +20,9 @@ const useStyles = makeStyles({
   },
   player: {
     height: "50em",
+  },
+  body: {
+    fontFamily: 'Lato',
   },
 });
 
@@ -30,7 +34,7 @@ export default function Music() {
       <Button variant="outlined" size="large" class={classes.button}>
         MUSIC
       </Button>
-      <Typography variant="h6">
+      <Typography variant="h6" className={classes.body}>
         Under the moniker "Lucental", I have produced original music for a
         diverse variety of clients in LA, Chicago, and New York ranging from
         local artists to off-broadway productions.
@@ -47,7 +51,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h7" paragraph={true}>
+          <Typography variant="h6" paragraph={true} className={classes.body}>
             Various background instrumentals for a discord role-playing game.
           </Typography>
         </Grid>
@@ -60,7 +64,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h7" paragraph={true}>
+          <Typography variant="h6" paragraph={true} className={classes.body}>
             A collection of instrumentals created for the online/off-broadway
             show "Rebirth of Rabbits Foot".
           </Typography>

@@ -10,6 +10,7 @@ import Hidden from "@material-ui/core/Hidden";
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
+    fontFamily: 'Montserrat',
     background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
@@ -18,6 +19,9 @@ const useStyles = makeStyles({
   },
   icons: {
     margin: "0.2em",
+  },
+  body: {
+    fontFamily: "Lato",
   },
 });
 
@@ -32,7 +36,7 @@ export default function Skills() {
       <br />
       <br />
       <Grid container direction="column" justify="space-evenly">
-        <Typography variant="h4">
+        <Typography variant="h4" className={classes.body}>
           Languages & Frameworks
           <hr />
         </Typography>
@@ -62,7 +66,7 @@ export default function Skills() {
             <i alt="php" class="devicon-php-plain colored"></i>
             <i alt="material ui" class="devicon-materialui-plain colored"></i>
           </GridList>
-          <Typography variant="h4">
+          <Typography variant="h4" className={classes.body}>
             Tools
             <hr />
           </Typography>

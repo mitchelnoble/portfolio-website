@@ -8,6 +8,7 @@ import "../../styles/screens/Contact.css";
 const useStyles = makeStyles({
   button: {
     fontSize: "4rem",
+    fontFamily: 'Montserrat',
     background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
     border: 0,
     borderRadius: 5,
@@ -21,6 +22,9 @@ const useStyles = makeStyles({
   icon: {
     fontSize: "5rem",
   },
+  body: {
+    fontFamily: "Lato",
+  }
 });
 
 export default function Contact() {
@@ -48,7 +52,7 @@ export default function Contact() {
       <br />
       <br />
       <Button class={classes.button}>CONTACT</Button>
-      <Typography variant="h6">MitchelParkerNoble@gmail.com</Typography>
+      <Typography variant="h6" className={classes.body}>MitchelParkerNoble@gmail.com</Typography>
       <hr />
 
       <form onSubmit={sendEmail} className="the-form">

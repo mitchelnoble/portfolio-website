@@ -47,6 +47,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    fontFamily: 'Montserrat',
     display: 'flex',
   },
   hide: {
@@ -83,6 +84,9 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginRight: 0,
   },
+  body: {
+    fontFamily: 'Lato',
+  },
 }));
 
 export default function PersistentDrawerRight() {
@@ -109,7 +113,7 @@ export default function PersistentDrawerRight() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap className={classes.title}>
-            MITCHEL NOBLE
+            M I T C H E L &nbsp;&nbsp; N O B L E 
           </Typography>
           <IconButton
             color="inherit"
