@@ -18,6 +18,7 @@ const useStyles = makeStyles({
   },
   icon: {
     fontSize: "2rem",
+    color: "white",
   },
   button: {
     fontSize: "4rem",
@@ -31,6 +32,8 @@ const useStyles = makeStyles({
   },
   body: {
     fontFamily: "Lato",
+    color: "white",
+    fontWeight: "bold"
   },
 });
 
@@ -41,7 +44,7 @@ export default function About() {
     <div id="about">
       <Container maxWidth="xl" maxHeight="xl" class={classes.header}>
         <Card>
-          <CardMedia image="https://i.imgur.com/iC9isWx.png">
+          <CardMedia image="https://i.imgur.com/6xpUNR9.jpg">
             <br /> <br />
             <Button variant="outlined" size="large" class={classes.button}>
               <Box letterSpacing={5}>MITCHEL NOBLE</Box>
