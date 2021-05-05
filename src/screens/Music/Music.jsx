@@ -23,6 +23,7 @@ const useStyles = makeStyles({
   },
   body: {
     fontFamily: 'Lato',
+    padding: '0.5em',
   },
 });
 
