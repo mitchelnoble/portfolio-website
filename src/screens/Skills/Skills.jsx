@@ -92,7 +92,7 @@ export default function Skills() {
             </a>
           </GridList>
         </Hidden>
-        <Hidden smUp>
+        <Hidden mdUp>
           <GridList
             cellHeight={110}
             spacing={90}
