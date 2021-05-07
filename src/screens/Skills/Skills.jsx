@@ -35,7 +35,7 @@ export default function Skills() {
       <Button class={classes.button}>SKILLS</Button>
       <br />
       <br />
-      <Grid container direction="column" justify="space-evenly">
+      <Grid container direction="column" justify="center">
         <Typography variant="h4" className={classes.body}>
           Languages & Frameworks
           <hr />

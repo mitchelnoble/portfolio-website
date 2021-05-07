@@ -44,7 +44,7 @@ export default function About() {
     <div id="about">
       <Container maxWidth="xl" maxHeight="xl" class={classes.header}>
         <Card>
-          <CardMedia image="https://i.imgur.com/6xpUNR9.jpg">
+          <CardMedia image="https://i.imgur.com/aNz3CfN.jpg">
             <br /> <br />
             <Button variant="outlined" size="large" class={classes.button}>
               <Box letterSpacing={5}>MITCHEL NOBLE</Box>
