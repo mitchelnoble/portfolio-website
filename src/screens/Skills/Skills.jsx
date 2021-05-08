@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Hidden from "@material-ui/core/Hidden";
+import Divider from "@material-ui/core/Divider";
 
 const useStyles = makeStyles({
   button: {
@@ -16,9 +17,6 @@ const useStyles = makeStyles({
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
-  },
-  icons: {
-    margin: "0.2em",
   },
   body: {
     fontFamily: "Lato",
@@ -35,67 +33,91 @@ export default function Skills() {
       <Button class={classes.button}>SKILLS</Button>
       <br />
       <br />
-      <Grid container direction="column" justify="center">
-        <Typography variant="h4" className={classes.body}>
-          Languages & Frameworks
-          <hr />
-        </Typography>
+      
+
         <br />
         <Hidden smDown>
           <GridList
-            cellHeight={110}
-            spacing={90}
+            cellHeight={40}
+            spacing={50}
             cols={3}
-            className={classes.icons}
+            style={{marginBottom: "4em", padding: "1em", height: "20em"} }
           >
+            <Grid container direction="row" justify="center" alignItems="center">
+              <Grid item>
             <i alt="html5" class="devicon-html5-plain-wordmark colored"></i>
             <i alt="css3" class="devicon-css3-plain-wordmark colored"></i>
-            <i alt="javascript" class="devicon-javascript-plain colored"></i>
-            <i alt="nodejs" class="devicon-nodejs-plain-wordmark colored"></i>
+                <i alt="javascript" class="devicon-javascript-plain colored"></i>
+            </Grid>
+            <Grid item>
+             
+            </Grid>
+                <Grid item>
+                <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem saepe fuga natus vel tenetur fugit, iure dignissimos nobis facilis assumenda et corporis explicabo commodi repudiandae. Odio quibusdam velit reiciendis.</Typography>
+              </Grid>
+            </Grid>
+
+            <Grid container direction="row" justify="center" alignItems="center" >
+              <Grid item>
+              <i alt="nodejs" class="devicon-nodejs-plain-wordmark colored"></i>
             <i
               alt="express"
               class="devicon-express-original-wordmark colored"
-            ></i>
+                ></i>
             <i alt="react" class="devicon-react-original-wordmark colored"></i>
-            <i alt="ruby" class="devicon-ruby-plain-wordmark colored"></i>
+                <Grid item>
+                <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem saepe fuga natus vel tenetur fugit, iure dignissimos nobis facilis assumenda et corporis explicabo commodi repudiandae. Odio quibusdam velit reiciendis.</Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+
+            <Grid container direction="row" justify="center" alignItems="center" >
+              <Grid item>
+              <i alt="ruby" class="devicon-ruby-plain-wordmark colored"></i>
             <i alt="rails" class="devicon-rails-plain-wordmark colored"></i>
             <i
               alt="postgresql"
               class="devicon-postgresql-plain-wordmark colored"
             ></i>
-            <i alt="php" class="devicon-php-plain colored"></i>
+                <Grid item>
+                <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem saepe fuga natus vel tenetur fugit, iure dignissimos nobis facilis assumenda et corporis explicabo commodi repudiandae. Odio quibusdam velit reiciendis.</Typography>
+                </Grid>
+              </Grid>
+            </Grid>
+            </GridList>
+            
+        <Grid container direction="row" justify="center">
+          <Grid item >
             <i alt="material ui" class="devicon-materialui-plain colored"></i>
-          </GridList>
-          <Typography variant="h4" className={classes.body}>
-            Tools
-            <hr />
-          </Typography>
-          <GridList cellHeight={110} justify="centered" spacing={90} cols={3}>
-            <i alt="photoshop" class="devicon-photoshop-plain colored"></i>
             <i
               alt="github"
               class="devicon-github-original-wordmark colored"
-            ></i>
+              ></i>
             <i alt="git" class="devicon-git-plain-wordmark colored"></i>
             <i alt="heroku" class="devicon-heroku-line-wordmark colored"></i>
             <i alt="mongodb" class="devicon-mongodb-plain-wordmark colored"></i>
+            <br />
+                <i alt="photoshop" class="devicon-photoshop-plain colored"></i>
             <a
               href="https://icon-library.net/icon/ableton-icon-10.html"
               alt="Ableton Live Icon"
               title="Ableton Icon #126747"
-            >
+              >
               <img
                 src="https://icon-library.net//images/ableton-icon/ableton-icon-10.jpg"
                 alt="Ableton Live Icon"
                 width="80"
-              />
-            </a>
-          </GridList>
+                />
+                </a>           
+          </Grid>
+              </Grid>
+
+
         </Hidden>
         <Hidden mdUp>
           <GridList
             cellHeight={110}
-            spacing={90}
+            spacing={0}
             cols={2}
             className={classes.icons}
           >
@@ -143,7 +165,6 @@ export default function Skills() {
             </a>
           </GridList>
         </Hidden>
-      </Grid>
     </div>
   );
 }
