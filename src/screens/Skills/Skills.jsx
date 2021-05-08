@@ -56,7 +56,7 @@ export default function Skills() {
               alt="postgresql"
               class="devicon-postgresql-plain-wordmark colored"
             ></i>
-                <Typography variant="subtitle1">Utilizing node.js and the Express framework, I have built RESTful NoSQL back-ends within the MongoDB database. My experience also extends to Ruby on Rails and PostgreSQL honing the MVC framework for database creation and control</Typography>
+                <Typography variant="subtitle1">Utilizing node.js and the Express framework, I have built RESTful NoSQL back-ends within the MongoDB database. My experience also extends to Ruby on Rails and PostgreSQL honing the MVC framework for database creation and control.</Typography>
               </Grid>
           
 
