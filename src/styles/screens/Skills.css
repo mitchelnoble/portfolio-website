@@ -1,7 +1,8 @@
 i {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 #skills {
+  margin-bottom: 1em;
   background: linear-gradient(to right, #D7DDE8 5%, #ffffff 95%);
 }
