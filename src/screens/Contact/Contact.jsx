@@ -52,7 +52,8 @@ export default function Contact() {
       <br />
       <br />
       <Button class={classes.button}>CONTACT</Button>
-      <Typography variant="h6" className={classes.body}>MitchelParkerNoble@gmail.com</Typography>
+      <br />
+      <Typography variant="subtitle1" className={classes.body}>MitchelParkerNoble@gmail.com</Typography>
       <hr />
 
       <form onSubmit={sendEmail} className="the-form">

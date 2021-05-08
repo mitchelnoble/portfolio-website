@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
-    marginBottom: "0.5em",
+    margin: "0.5em 0 0.5em 0",
   },
   player: {
     height: "50em",
@@ -29,13 +29,14 @@ const useStyles = makeStyles({
 
 export default function Music() {
   const classes = useStyles();
+
   return (
     <div className="music-container" id="music">
-      <br /> <br />
+      
       <Button variant="outlined" size="large" class={classes.button}>
         MUSIC
       </Button>
-      <Typography variant="h6" className={classes.body}>
+      <Typography variant="subtitle1" className={classes.body}>
         Under the moniker "Lucental", I have produced original music for a
         diverse variety of clients in LA, Chicago, and New York ranging from
         local artists to off-broadway productions.
@@ -52,7 +53,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h6" paragraph={true} className={classes.body}>
+          <Typography variant="subtitle1" paragraph={true} className={classes.body}>
             Various background instrumentals for a discord role-playing game.
           </Typography>
         </Grid>
@@ -65,7 +66,7 @@ export default function Music() {
             />
           </Paper>
           <br />
-          <Typography variant="h6" paragraph={true} className={classes.body}>
+          <Typography variant="subtitle1" paragraph={true} className={classes.body}>
             A collection of instrumentals created for the online/off-broadway
             show "Rebirth of Rabbits Foot".
           </Typography>
