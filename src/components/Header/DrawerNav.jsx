@@ -52,6 +52,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     fontFamily: 'Harlow',
     display: 'flex',
+    padding: '5px',
+    height: '1em',
   },
   hide: {
     display: 'none',
