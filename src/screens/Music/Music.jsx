@@ -6,13 +6,14 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
   button: {
     fontSize: "1.5rem",
     fontFamily: "Futura",
     background: "#117F76",
-    border: 0,
+    borderColor: "#FFFFFF",
     borderRadius: 5,
     color: "white",
     marginTop: "1.5em",
@@ -75,9 +76,11 @@ export default function Music() {
           </Typography>
         </Grid>
         <Grid item xs={12}>
+        <Link to="contact" smooth={true} duration={500} offset={-80}>
         <Button variant="outlined" className={classes.button}>
-        Ask About Music
+              Ask About Music
       </Button>
+            </Link>
         </Grid>
       </Grid>
     </div>

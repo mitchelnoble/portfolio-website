@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     fontSize: "1.5rem",
     fontFamily: "Futura",
     background: "#117F76",
-    border: 0,
+    borderColor: "#FFFFFF",
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
