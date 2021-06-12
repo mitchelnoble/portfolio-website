@@ -9,14 +9,18 @@ import Paper from "@material-ui/core/Paper";
 
 const useStyles = makeStyles({
   button: {
-    fontSize: "4rem",
-    fontFamily: 'Montserrat',
-    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
+    fontSize: "1.5rem",
+    fontFamily: "Futura",
+    background: "#117F76",
     border: 0,
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
-    margin: "0.5em 0 0.5em 0",
+    margin: "3.5em 0 0",
+  },
+  title: {
+    fontFamily: "HarlowSolid",
+    color: "white",
   },
   player: {
     height: "50em",
@@ -33,9 +37,9 @@ export default function Music() {
   return (
     <div className="music-container" id="music">
       
-      <Button variant="outlined" size="large" class={classes.button}>
-        MUSIC
-      </Button>
+      <Typography variant="h2" className={classes.title}>
+        Need Music?
+</Typography>
       <Typography variant="subtitle1" className={classes.body}>
         Under the moniker "Lucental", I have produced original music for a
         diverse variety of clients in LA, Chicago, and New York ranging from
@@ -71,6 +75,9 @@ export default function Music() {
             show "Rebirth of Rabbits Foot".
           </Typography>
         </Grid>
+        <Button variant="outlined" className={classes.button}>
+        Ask About Music
+      </Button>
       </Grid>
       <br />
     </div>

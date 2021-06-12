@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     fontFamily: "Futura",
+    color: "black",
   },
   cardContent: {
     width: "100%",
@@ -98,6 +99,7 @@ const Projects = () => {
                   Github
                 </Button>
                 <Button
+                  variant="outlined"
                   className={classes.link}
                   size="small"
                   color="primary"

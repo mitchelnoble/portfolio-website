@@ -79,7 +79,7 @@ export default function Skills() {
           </Grid>
         </Grid>
         <Grid item xs={12}>
-          <Button className={classes.button}>
+          <Button variant="outlined" className={classes.button}>
         See My Projects
       </Button>
         </Grid>

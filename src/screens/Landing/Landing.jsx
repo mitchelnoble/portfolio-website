@@ -1,10 +1,9 @@
 import React from "react";
 import "../../styles/screens/Landing.css";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
+
 
 
 const useStyles = makeStyles({
@@ -35,9 +34,9 @@ export default function Landing() {
         Need a Software Engineer?
         </Typography>
         <Typography variant="h3" className={classes.body}>
-          I'll make your next project awesome! 
+          Let's make your next project awesome! 
         </Typography>
-      <Button className={classes.button}>
+      <Button variant="outlined" className={classes.button}>
           See My Skills
         </Button>        
     </div>

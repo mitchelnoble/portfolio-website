@@ -42,14 +42,6 @@ export default function About() {
 
   return (
     <div id="about">
-      <Container maxWidth="xl" maxHeight="xl" class={classes.header}>
-        <Card>
-          <CardMedia image="https://i.imgur.com/aNz3CfN.jpg">
-            <br /> <br />
-            <Button variant="outlined" size="large" class={classes.button}>
-              <Box letterSpacing={5}>MITCHEL NOBLE</Box>
-            </Button>
-            <br /> <br />
             <Typography variant="h4" className={classes.body}>
               <Box letterSpacing={8}>SOFTWARE ENGINEER</Box>
               </Typography>
@@ -58,7 +50,6 @@ export default function About() {
               <Box letterSpacing={8}>MUSIC PRODUCER</Box>
             </Typography>
             <br /> <br />
-            <Container>
               <Typography variant="h6" className={classes.body}>
                 I am a professional musician and Software Engineer. Creative,
                 sincere, and reliable, I channel the same passion that produces
@@ -79,12 +70,6 @@ export default function About() {
                 <br />I have worked with local artists in New York, Chicago, and
                 Los Angeles to: write, record, edit, and perform original music.
               </Typography>
-              <br />
-              <br />
-            </Container>
-          </CardMedia>
-        </Card>
-      </Container>
     </div>
   );
 }
