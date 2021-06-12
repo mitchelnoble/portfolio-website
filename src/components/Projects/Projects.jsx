@@ -15,6 +15,12 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    fontFamily: "HarlowSolid",
+  },
+  link: {
+    fontFamily: "Futura",
+  },
   cardContent: {
     width: "100%",
     padding: 0,
@@ -43,10 +49,7 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <br />
-      <br />
-      <Button class={classes.button}>PROJECTS</Button>
-      <Grid container spacing={3} justify="center">
+      <Grid container spacing={8} justify="center">
         <Grid item xs={10} md={3}>
           <Card className={classes.root}>
             <CardActionArea>
@@ -60,13 +63,14 @@ const Projects = () => {
               <CardContent className={classes.cardContent}>
                 <Accordion>
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
                       Play Price PC
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography
                       gutterBottom
+                      className={classes.link}
                       variant="body1"
                       color="textSecondary"
                       component="p"
@@ -82,6 +86,7 @@ const Projects = () => {
             <CardActions>
               <Grid container justify="space-around">
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {
@@ -93,6 +98,7 @@ const Projects = () => {
                   Github
                 </Button>
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {
@@ -122,12 +128,13 @@ const Projects = () => {
                     className={classes.accordion}
                     expandIcon={<ExpandMoreIcon />}
                   >
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
                       Get Lost
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography
+                      className={classes.link}
                       variant="subtitle1"
                       color="textSecondary"
                       component="p"
@@ -143,6 +150,7 @@ const Projects = () => {
             <CardActions>
               <Grid container justify="space-around">
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {
@@ -154,6 +162,7 @@ const Projects = () => {
                   Github
                 </Button>
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {
@@ -180,12 +189,13 @@ const Projects = () => {
               <CardContent className={classes.cardContent}>
                 <Accordion>
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
                       Protozoa Records
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography
+                      className={classes.link}
                       gutterBottom
                       variant="subtitle1"
                       color="textSecondary"
@@ -201,6 +211,7 @@ const Projects = () => {
             <CardActions>
               <Grid container justify="space-around">
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {
@@ -212,6 +223,7 @@ const Projects = () => {
                   Github
                 </Button>
                 <Button
+                  className={classes.link}
                   size="small"
                   color="primary"
                   onClick={() => {

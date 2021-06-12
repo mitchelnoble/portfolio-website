@@ -15,11 +15,11 @@ function App() {
 
       <Landing />
 
-      <About />
-
       <Skills />
 
       <Projects />
+
+      <About />
 
       <Music />
 

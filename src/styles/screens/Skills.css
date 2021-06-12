@@ -1,8 +1,13 @@
 i {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #skills {
-  margin-bottom: 1em;
-  background: linear-gradient(to right, #D7DDE8 5%, #ffffff 95%);
+  color: white;
+  height: 100vh;
+  background: linear-gradient(45deg, #7F1720 30%, #202439 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

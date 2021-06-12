@@ -58,6 +58,9 @@ const useStyles = makeStyles((theme) => ({
   hide: {
     display: 'none',
   },
+  links: {
+    fontFamily: 'Futura',
+  },
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
@@ -149,9 +152,9 @@ export default function PersistentDrawerRight() {
         <Divider />
         <List>
           <Link to="about" smooth={true} duration={500} offset={-80}>
-          <ListItem button key={'About'}>
+            <ListItem button key={'About'}>
             <ListItemIcon><PersonIcon /></ListItemIcon>
-              <ListItemText primary={'About'} />
+              <ListItemText primary={'About'} className={classes.links} />
           </ListItem>
           </Link>
 
