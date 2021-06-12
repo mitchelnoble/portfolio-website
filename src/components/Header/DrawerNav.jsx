@@ -45,9 +45,12 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginRight: drawerWidth,
   },
+  bar: {
+    background: 'linear-gradient(to right, #7F1720 20%, #262034 80%)',
+  },
   title: {
     flexGrow: 1,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Harlow',
     display: 'flex',
   },
   hide: {
@@ -111,9 +114,9 @@ export default function PersistentDrawerRight() {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
-          <Typography variant="subtitle2" noWrap className={classes.title}>
-            M I T C H E L &nbsp;&nbsp; N O B L E 
+        <Toolbar className={classes.bar}>
+          <Typography variant="h4" noWrap className={classes.title}>
+            Mitchel Noble 
           </Typography>
           <IconButton
             color="inherit"

@@ -4,6 +4,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Harlow/Harlow Regular/Harlow Regular.ttf';
+import './fonts/HarlowEF-Solid/HarlowEF-Solid Regular/HarlowEF-Solid Regular.otf';
+import './fonts/futura/futur.ttf';
+
 
 ReactDOM.render(
   <React.StrictMode>
