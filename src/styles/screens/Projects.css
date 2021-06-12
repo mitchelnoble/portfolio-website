@@ -7,3 +7,15 @@
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 960px) {
+  #projects {
+    height: 130vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #projects {
+    height: 180vh;
+  }
+}

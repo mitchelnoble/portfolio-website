@@ -16,8 +16,8 @@ const useStyles = makeStyles({
     margin: 0,
     padding: 0,
   },
-  icon: {
-    fontSize: "2rem",
+  title: {
+    fontFamily: "HarlowSolid",
     color: "white",
   },
   button: {
@@ -31,9 +31,9 @@ const useStyles = makeStyles({
     margin: "1em 0 0.4em",
   },
   body: {
-    fontFamily: "Lato",
+    fontFamily: "Futura",
     color: "white",
-    fontWeight: "bold"
+    padding: "1em",
   },
 });
 
@@ -42,13 +42,9 @@ export default function About() {
 
   return (
     <div id="about">
-            <Typography variant="h4" className={classes.body}>
-              <Box letterSpacing={8}>SOFTWARE ENGINEER</Box>
+            <Typography variant="h4" className={classes.title}>
+              Here's a bit about me
               </Typography>
-              <SyncIcon className={classes.icon} />
-              <Typography variant="h4" className={classes.body}>
-              <Box letterSpacing={8}>MUSIC PRODUCER</Box>
-            </Typography>
             <br /> <br />
               <Typography variant="h6" className={classes.body}>
                 I am a professional musician and Software Engineer. Creative,

@@ -159,9 +159,6 @@ export default function Contact() {
           placeholder="Your Message"
           name="message"
         />
-
-        <br />
-        <br />
         <Button
           variant="outlined"
           color="primary"
@@ -179,9 +176,6 @@ export default function Contact() {
           Send
         </Button>
       </form>
-
-      <br />
-      <br />
     </div>
     </ThemeProvider>
   );

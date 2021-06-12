@@ -30,10 +30,11 @@ export default function Landing() {
 
   return (
     <div id="landing">
-      <Typography variant="h1" className={classes.title}>
+      <Typography variant="h2" className={classes.title}>
         Need a Software Engineer?
         </Typography>
-        <Typography variant="h3" className={classes.body}>
+      <br />
+        <Typography variant="h4" className={classes.body}>
           Let's make your next project awesome! 
         </Typography>
       <Button variant="outlined" className={classes.button}>

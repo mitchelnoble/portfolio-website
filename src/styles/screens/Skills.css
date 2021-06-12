@@ -11,3 +11,15 @@ i {
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 960px) {
+  #skills {
+    height: 110vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #skills {
+    height: 180vh;
+    padding: 1em;
+  }
+}

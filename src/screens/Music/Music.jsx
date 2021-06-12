@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     height: "50em",
   },
   body: {
-    fontFamily: 'Lato',
+    fontFamily: 'Futura',
     padding: '0.5em',
   },
 });
@@ -79,7 +79,6 @@ export default function Music() {
         Ask About Music
       </Button>
       </Grid>
-      <br />
     </div>
   );
 }
