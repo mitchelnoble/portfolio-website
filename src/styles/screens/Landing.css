@@ -1,0 +1,9 @@
+#landing {
+  color: white;
+  height: 100vh;
+  background: linear-gradient(45deg, #202434 30%, #202440 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
