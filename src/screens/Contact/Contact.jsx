@@ -4,26 +4,67 @@ import { Button, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
 import "../../styles/screens/Contact.css";
+import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+
+const Theme = {
+  palette: {
+   primary: {
+    contrastText: "#FFFFFF",
+    dark: "#FFFFFF",
+    main: "#FFFFFF",
+    light: "#FFFFFF"
+   }
+ },
+ overrides: {
+  MuiOutlinedInput: {
+    root: {
+      position: "relative",
+      "& $notchedOutline": {
+        borderColor: "#FFFFFF"
+      },
+      "&:hover:not($disabled):not($focused):not($error) $notchedOutline": {
+        borderColor: "#FFFFFF",
+        "@media (hover: none)": {
+          borderColor: "#FFFFFF"
+        }
+      },
+      "&$focused $notchedOutline": {
+        borderColor: "#FFFFFF",
+        borderWidth: 1
+      }
+    }
+   }
+  }
+};
+ 
+const theme = createMuiTheme(Theme);
 
 const useStyles = makeStyles({
   button: {
-    fontSize: "4rem",
-    fontFamily: 'Montserrat',
-    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
-    border: 0,
+    fontSize: "1.5rem",
+    fontFamily: "Futura",
+    background: "#117F76",
+    borderColor: "#FFFFFF",
     borderRadius: 5,
     color: "white",
     padding: "0 30px",
-    marginBottom: "0.5em",
+    margin: "3.5em 0 0",
   },
   input: {
-    width: "80%",
+    color: "white"
+  },
+  inputs: {
+    width: "100%",
+    color: "white",
   },
   icon: {
     fontSize: "5rem",
   },
+  title: {
+    fontFamily: "HarlowSolid",
+  },
   body: {
-    fontFamily: "Lato",
+    fontFamily: "Futura",
   }
 });
 
@@ -47,27 +88,43 @@ export default function Contact() {
 
   const classes = useStyles();
 
+
   return (
+    <ThemeProvider theme={theme}>
     <div id="contact">
+      <Typography variant="h2" className={classes.title}>Let's get to work</Typography>
       <br />
+        <Typography variant="subtitle1" className={classes.body}>MitchelParkerNoble@gmail.com
       <br />
-      <Button class={classes.button}>CONTACT</Button>
+      or
       <br />
-      <Typography variant="subtitle1" className={classes.body}>MitchelParkerNoble@gmail.com</Typography>
-      <hr />
+       contact me here:</Typography>
 
       <form onSubmit={sendEmail} className="the-form">
         <TextField
           type="text"
-          className={classes.input}
+            className={classes.inputs}
+            InputProps={{
+              className: classes.input
+            }}
+            InputLabelProps={{
+              className: classes.input
+            }}
           placeholder="Name"
           name="name"
+          color="white"
           required
         />
 
         <TextField
           type="text"
-          className={classes.input}
+            className={classes.inputs}
+            InputProps={{
+              className: classes.input
+            }}
+            InputLabelProps={{
+              className: classes.input
+            }}
           placeholder="Email"
           name="email"
           required
@@ -75,37 +132,50 @@ export default function Contact() {
 
         <TextField
           type="text"
-          className={classes.input}
+            className={classes.inputs}
+            InputProps={{
+              className: classes.input
+            }}
+            InputLabelProps={{
+              className: classes.input
+            }}
           placeholder="Subject"
           name="subject"
           required
         />
 
         <TextField
-          className={classes.input}
+            className={classes.inputs}
+            InputProps={{
+              className: classes.input
+            }}
+            InputLabelProps={{
+              className: classes.input
+            }}
           multiline
           rows={12}
           required
           placeholder="Your Message"
           name="message"
         />
-
-        <br />
-        <br />
         <Button
           variant="outlined"
           color="primary"
           type="submit"
-          className="submit-button"
+            className={classes.button}
+            InputProps={{
+              className: classes.input
+            }}
+            InputLabelProps={{
+              className: classes.input
+            }}
           value="Send"
           endIcon={<SendIcon />}
         >
           Send
         </Button>
       </form>
-
-      <br />
-      <br />
     </div>
+    </ThemeProvider>
   );
 }

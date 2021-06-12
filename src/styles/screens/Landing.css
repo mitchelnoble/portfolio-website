@@ -1,4 +1,4 @@
-#about {
+#landing {
   color: white;
   height: 100vh;
   background: linear-gradient(45deg, #202434 30%, #202440 70%);
@@ -6,16 +6,4 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@media only screen and (max-width: 960px) {
-  #about {
-    height: 130vh;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  #about {
-    height: 140vh;
-  }
 }

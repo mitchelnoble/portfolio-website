@@ -6,23 +6,27 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
   button: {
-    fontSize: "4rem",
-    fontFamily: 'Montserrat',
-    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
-    border: 0,
+    fontSize: "1.5rem",
+    fontFamily: "Futura",
+    background: "#117F76",
+    borderColor: "#FFFFFF",
     borderRadius: 5,
     color: "white",
-    padding: "0 30px",
-    margin: "0.5em 0 0.5em 0",
+    marginTop: "1.5em",
+  },
+  title: {
+    fontFamily: "HarlowSolid",
+    color: "white",
   },
   player: {
     height: "50em",
   },
   body: {
-    fontFamily: 'Lato',
+    fontFamily: 'Futura',
     padding: '0.5em',
   },
 });
@@ -33,9 +37,9 @@ export default function Music() {
   return (
     <div className="music-container" id="music">
       
-      <Button variant="outlined" size="large" class={classes.button}>
-        MUSIC
-      </Button>
+      <Typography variant="h2" className={classes.title}>
+        Need Music?
+</Typography>
       <Typography variant="subtitle1" className={classes.body}>
         Under the moniker "Lucental", I have produced original music for a
         diverse variety of clients in LA, Chicago, and New York ranging from
@@ -71,8 +75,14 @@ export default function Music() {
             show "Rebirth of Rabbits Foot".
           </Typography>
         </Grid>
+        <Grid item xs={12}>
+        <Link to="contact" smooth={true} duration={500} offset={-80}>
+        <Button variant="outlined" className={classes.button}>
+              Ask About Music
+      </Button>
+            </Link>
+        </Grid>
       </Grid>
-      <br />
     </div>
   );
 }

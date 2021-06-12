@@ -1,23 +1,17 @@
 import React from "react";
 import "../../styles/screens/About.css";
-import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import MusicVideoIcon from "@material-ui/icons/MusicVideo";
-import SyncIcon from "@material-ui/icons/Sync";
-import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles({
   header: {
     margin: 0,
     padding: 0,
   },
-  icon: {
-    fontSize: "2rem",
+  title: {
+    fontFamily: "HarlowSolid",
     color: "white",
   },
   button: {
@@ -31,9 +25,9 @@ const useStyles = makeStyles({
     margin: "1em 0 0.4em",
   },
   body: {
-    fontFamily: "Lato",
+    fontFamily: "Futura",
     color: "white",
-    fontWeight: "bold"
+    padding: "1em",
   },
 });
 
@@ -42,23 +36,10 @@ export default function About() {
 
   return (
     <div id="about">
-      <Container maxWidth="xl" maxHeight="xl" class={classes.header}>
-        <Card>
-          <CardMedia image="https://i.imgur.com/aNz3CfN.jpg">
-            <br /> <br />
-            <Button variant="outlined" size="large" class={classes.button}>
-              <Box letterSpacing={5}>MITCHEL NOBLE</Box>
-            </Button>
-            <br /> <br />
-            <Typography variant="h4" className={classes.body}>
-              <Box letterSpacing={8}>SOFTWARE ENGINEER</Box>
+            <Typography variant="h4" className={classes.title}>
+              Here's a bit about me
               </Typography>
-              <SyncIcon className={classes.icon} />
-              <Typography variant="h4" className={classes.body}>
-              <Box letterSpacing={8}>MUSIC PRODUCER</Box>
-            </Typography>
             <br /> <br />
-            <Container>
               <Typography variant="h6" className={classes.body}>
                 I am a professional musician and Software Engineer. Creative,
                 sincere, and reliable, I channel the same passion that produces
@@ -79,12 +60,6 @@ export default function About() {
                 <br />I have worked with local artists in New York, Chicago, and
                 Los Angeles to: write, record, edit, and perform original music.
               </Typography>
-              <br />
-              <br />
-            </Container>
-          </CardMedia>
-        </Card>
-      </Container>
     </div>
   );
 }

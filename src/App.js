@@ -6,21 +6,24 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./screens/Contact/Contact";
 import Music from "./screens/Music/Music";
 import DrawerNav from "./components/Header/DrawerNav";
+import Landing from "./screens/Landing/Landing";
 
 function App() {
   return (
     <div className="App">
       <DrawerNav />
 
-      <About />
+      <Landing />
 
       <Skills />
 
       <Projects />
 
-      <Music />
+      <About />
 
       <Contact />
+
+      <Music />
     </div>
   );
 }

@@ -45,13 +45,21 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginRight: drawerWidth,
   },
+  bar: {
+    background: 'linear-gradient(to right, #7F1720 20%, #262034 80%)',
+  },
   title: {
     flexGrow: 1,
-    fontFamily: 'Montserrat',
+    fontFamily: 'Harlow',
     display: 'flex',
+    padding: '5px',
+    height: '1em',
   },
   hide: {
     display: 'none',
+  },
+  links: {
+    fontFamily: 'Futura',
   },
   drawer: {
     width: drawerWidth,
@@ -111,9 +119,9 @@ export default function PersistentDrawerRight() {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
-          <Typography variant="subtitle2" noWrap className={classes.title}>
-            M I T C H E L &nbsp;&nbsp; N O B L E 
+        <Toolbar className={classes.bar}>
+          <Typography variant="h4" noWrap className={classes.title}>
+            Mitchel Noble 
           </Typography>
           <IconButton
             color="inherit"
@@ -144,9 +152,9 @@ export default function PersistentDrawerRight() {
         <Divider />
         <List>
           <Link to="about" smooth={true} duration={500} offset={-80}>
-          <ListItem button key={'About'}>
+            <ListItem button key={'About'}>
             <ListItemIcon><PersonIcon /></ListItemIcon>
-              <ListItemText primary={'About'} />
+              <ListItemText primary={'About'} className={classes.links} />
           </ListItem>
           </Link>
 
@@ -194,7 +202,7 @@ export default function PersistentDrawerRight() {
             <ListItemText primary={'LinkedIn'} />
           </ListItem>
             <ListItem button key={'Resume'} onClick={() => {
-                    window.open("https://drive.google.com/file/d/0B6heteq-4PWfcjRCMUQ5SzZPMm9sS1Q5U0xweDQ1YjFwLXp3/view?usp=sharing");
+                    window.open("https://drive.google.com/file/d/0B6heteq-4PWfcjRCMUQ5SzZPMm9sS1Q5U0xweDQ1YjFwLXp3/view?usp=sharing&resourcekey=0-fv5xqJZqgKDCBNQi9p0dnw");
                   }}>
             <ListItemIcon><AttachFileIcon /></ListItemIcon>
             <ListItemText primary={'Resume'} />
