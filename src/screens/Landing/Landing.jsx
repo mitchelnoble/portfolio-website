@@ -3,19 +3,18 @@ import "../../styles/screens/Landing.css";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-
+import { Link } from "react-scroll";
 
 
 const useStyles = makeStyles({
   button: {
-    fontSize: "1.5rem",
+    fontSize: "1.4rem",
     fontFamily: "Futura",
     background: "#117F76",
     border: 0,
     borderRadius: 5,
     color: "white",
-    padding: "0 30px",
-    margin: "3.5em 0 0",
+    marginTop: "1.5em",
   },
   title: {
     fontFamily: "HarlowSolid",
@@ -37,9 +36,11 @@ export default function Landing() {
         <Typography variant="h4" className={classes.body}>
           I'm Mitch, <br /> Let's make your next project awesome! 
         </Typography>
+        <Link to="skills" smooth={true} duration={500} offset={-73}>
       <Button variant="outlined" className={classes.button}>
           See My Skills
         </Button>        
+      </Link>
     </div>
   )
 }

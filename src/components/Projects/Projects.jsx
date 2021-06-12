@@ -13,6 +13,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,14 +27,13 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   button: {
-    fontSize: "4rem",
-    fontFamily: 'Montserrat',
-    background: "linear-gradient(45deg, #303AA6 30%, #21CBF3 90%)",
+    fontSize: "1.4rem",
+    fontFamily: "Futura",
+    background: "#117F76",
     border: 0,
     borderRadius: 5,
     color: "white",
-    padding: "0 30px",
-    marginBottom: "1em",
+    marginTop: "1em",
   },
   accordion: {
     justifyContent: "center",
@@ -237,9 +237,17 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
+        <Grid item xs={12}>
+          <Typography nogutter variant="h4" className={classes.root}>
+            Ready to get to work?
+          </Typography>
+        <Link to="contact" smooth={true} duration={500} offset={-73}>
+          <Button variant="outlined" className={classes.button}>
+              Contact Me Here
+      </Button>
+            </Link>
+        </Grid>
       </Grid>
-      <br />
-      <br />
     </div>
   );
 };

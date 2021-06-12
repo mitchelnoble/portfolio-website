@@ -4,6 +4,7 @@ import "../../styles/screens/Skills.css";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
   button: {
@@ -79,9 +80,11 @@ export default function Skills() {
           </Grid>
         </Grid>
         <Grid item xs={12}>
+        <Link to="projects" smooth={true} duration={500} offset={-73}>
           <Button variant="outlined" className={classes.button}>
-        See My Projects
+              See My Projects
       </Button>
+            </Link>
         </Grid>
       </Grid>
     </div>

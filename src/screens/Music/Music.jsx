@@ -15,8 +15,7 @@ const useStyles = makeStyles({
     border: 0,
     borderRadius: 5,
     color: "white",
-    padding: "0 30px",
-    margin: "3.5em 0 0",
+    marginTop: "1.5em",
   },
   title: {
     fontFamily: "HarlowSolid",
