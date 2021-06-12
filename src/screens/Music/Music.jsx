@@ -75,9 +75,11 @@ export default function Music() {
             show "Rebirth of Rabbits Foot".
           </Typography>
         </Grid>
+        <Grid item xs={12}>
         <Button variant="outlined" className={classes.button}>
         Ask About Music
       </Button>
+        </Grid>
       </Grid>
     </div>
   );

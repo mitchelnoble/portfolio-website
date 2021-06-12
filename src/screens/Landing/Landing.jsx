@@ -35,7 +35,7 @@ export default function Landing() {
         </Typography>
       <br />
         <Typography variant="h4" className={classes.body}>
-          Let's make your next project awesome! 
+          I'm Mitch, <br /> Let's make your next project awesome! 
         </Typography>
       <Button variant="outlined" className={classes.button}>
           See My Skills

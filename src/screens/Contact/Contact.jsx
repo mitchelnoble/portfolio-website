@@ -119,7 +119,6 @@ export default function Contact() {
         <TextField
           type="text"
             className={classes.inputs}
-            className={classes.inputs}
             InputProps={{
               className: classes.input
             }}
