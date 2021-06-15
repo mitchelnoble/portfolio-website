@@ -50,10 +50,9 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
-    fontFamily: 'Harlow',
+    fontFamily: 'HarlowSolid',
     display: 'flex',
-    padding: '5px',
-    height: '1em',
+    height: '1.2em',
   },
   hide: {
     display: 'none',
@@ -120,7 +119,7 @@ export default function PersistentDrawerRight() {
         })}
       >
         <Toolbar className={classes.bar}>
-          <Typography variant="h4" noWrap className={classes.title}>
+          <Typography variant="h5" noWrap className={classes.title}>
             Mitchel Noble 
           </Typography>
           <IconButton
