@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+@media only screen and (max-height: 700px) {
+  #projects {
+    height: 150vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #projects {
     height: 130vh;
@@ -15,7 +20,7 @@
 }
 @media only screen and (max-width: 958px) {
   #projects {
-    height: 160vh;
+    height: 180vh;
   }
 }
 

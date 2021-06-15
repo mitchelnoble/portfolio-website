@@ -19,12 +19,12 @@ i {
 }
 @media only screen and (max-width: 958px) {
   #skills {
-    height: 130vh;
+    height: 140vh;
   }
 }
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 630px) {
   #skills {
-    height: 140vh;
+    height: 150vh;
   }
 }
 @media only screen and (max-width: 375px) {
