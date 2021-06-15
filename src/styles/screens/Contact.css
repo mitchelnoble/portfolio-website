@@ -13,12 +13,31 @@
   color: white;
 }
 
+@media only screen and (max-height: 960px) {
+  #contact {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 442px) {
+  #contact {
+    height: 170vh;
+  }
+}
+@media only screen and (max-height: 394px) {
+  #contact {
+    height: 200vh;
+  }
+}
+@media only screen and (max-height: 322px) {
+  #contact {
+    height: 250vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #contact {
     height: 130vh;
   }
 }
-
 @media only screen and (max-width: 375px) {
   #contact {
     height: 125vh;

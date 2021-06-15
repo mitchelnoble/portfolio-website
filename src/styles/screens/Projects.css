@@ -13,6 +13,11 @@
     height: 150vh;
   }
 }
+@media only screen and (max-height: 322px) {
+  #projects {
+    height: 250vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #projects {
     height: 130vh;
