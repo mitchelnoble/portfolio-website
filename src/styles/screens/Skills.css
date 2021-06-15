@@ -12,6 +12,16 @@ i {
   justify-content: center;
 }
 
+@media only screen and (max-height: 442px) {
+  #skills {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 322px) {
+  #skills {
+    height: 250vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #skills {
     height: 110vh;

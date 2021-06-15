@@ -8,6 +8,16 @@
   justify-content: center;
 }
 
+@media only screen and (max-height: 960px) {
+  #about {
+    height: 130vh;
+  }
+}
+@media only screen and (max-height: 394px) {
+  #about {
+    height: 200vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #about {
     height: 130vh;

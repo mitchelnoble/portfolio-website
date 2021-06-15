@@ -13,6 +13,51 @@
     height: 130vh;
   }
 }
+@media only screen and (max-height: 545px) {
+  #music {
+    height: 150vh;
+  }
+}
+@media only screen and (max-height: 470px) {
+  #music {
+    height: 160vh;
+  }
+}
+@media only screen and (max-height: 442px) {
+  #music {
+    height: 170vh;
+  }
+}
+@media only screen and (max-height: 417px) {
+  #music {
+    height: 180vh;
+  }
+}
+@media only screen and (max-height: 394px) {
+  #music {
+    height: 200vh;
+  }
+}
+@media only screen and (max-height: 354px) {
+  #music {
+    height: 220vh;
+  }
+}
+@media only screen and (max-height: 322px) {
+  #music {
+    height: 230vh;
+  }
+}
+@media only screen and (max-height: 295px) {
+  #music {
+    height: 270vh;
+  }
+}
+@media only screen and (max-height: 308px) {
+  #music {
+    height: 240vh;
+  }
+}
 @media only screen and (max-width: 960px) {
   #music {
     height: 130vh;
