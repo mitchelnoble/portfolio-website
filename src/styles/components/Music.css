@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 800px) {
   #music {
     height: 130vh;
   }
