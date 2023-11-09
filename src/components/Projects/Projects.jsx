@@ -50,6 +50,72 @@ const Projects = () => {
   return (
     <div id="projects">
       <Grid container spacing={6} justify="center">
+
+        {/*Infinitone.com*/}
+
+        <Grid item xs={10} md={3}>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Infinitone.com Home Page Photo"
+                height="200"
+                image="https://i.imgur.com/alfV2Fc.png"
+                title="Infinitone.com"
+              />
+              <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
+                      Infinitone.com
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography
+                      gutterBottom
+                      className={classes.link}
+                      variant="body1"
+                      color="textSecondary"
+                      component="p"
+                    >
+                      My client's React-based website for music software.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Grid container justify="space-around">
+                <Button
+                  className={classes.link}
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/infinitone-admin/infinitone-com"
+                    );
+                  }}
+                >
+                  Github
+                </Button>
+                <Button
+                  variant="outlined"
+                  className={classes.link}
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    window.open("https://www.infinitone.com");
+                  }}
+                >
+                  Website
+                </Button>
+              </Grid>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        {/*Play Price PC*/}
+    
         <Grid item xs={10} md={3}>
           <Card className={classes.root}>
             <CardActionArea>
@@ -112,6 +178,8 @@ const Projects = () => {
             </CardActions>
           </Card>
         </Grid>
+
+        {/*Get Lost*/}
 
         <Grid item xs={10} md={3} direction="column" justify="space-between">
           <Card className={classes.root}>
@@ -177,6 +245,8 @@ const Projects = () => {
           </Card>
         </Grid>
 
+        {/*Protozoa Records*/}
+
         <Grid item xs={10} md={3} justify="space-around">
           <Card className={classes.root}>
             <CardActionArea>
@@ -185,7 +255,7 @@ const Projects = () => {
                 alt="Protozoa Records gif"
                 height="200"
                 image="https://i.imgur.com/RGIkLzn.gif"
-                title="Get Lost"
+                title="Protozoa Records"
               />
               <CardContent className={classes.cardContent}>
                 <Accordion>
