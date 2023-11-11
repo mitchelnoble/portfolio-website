@@ -66,7 +66,12 @@ const Projects = () => {
               <CardContent className={classes.cardContent}>
                 <Accordion>
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
                       Infinitone.com
                     </Typography>
                   </AccordionSummary>
@@ -78,7 +83,7 @@ const Projects = () => {
                       color="textSecondary"
                       component="p"
                     >
-                      My client's React-based website for music software.
+                      My client's React-based website for music software. It uses SaSS CSS and is deployed on the Vercel platform.
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -114,8 +119,134 @@ const Projects = () => {
           </Card>
         </Grid>
 
+
+        {/*AsianRooted.com*/}
+
+        <Grid item xs={10} md={3}>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="AsianRooted.com Home Page Photo"
+                height="200"
+                image="https://i.imgur.com/mqtTI3n.png"
+                title="AsianRooted.com"
+              />
+              <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
+                      AsianRooted.com
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography
+                      gutterBottom
+                      className={classes.link}
+                      variant="body1"
+                      color="textSecondary"
+                      component="p"
+                    >
+                      My client's Wordpress blogging website. Built in a team, this customized Wordpress theme focuses on SEO management. 
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Grid container justify="space-around">
+                
+                <Button
+                  variant="outlined"
+                  className={classes.link}
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    window.open("https://www.asianrooted.com");
+                  }}
+                >
+                  Website
+                </Button>
+              </Grid>
+            </CardActions>
+          </Card>
+        </Grid>
+
+        {/*Esunarosehealwell.com*/}
+
+        <Grid item xs={10} md={3}>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="Esunarosehealwell.com Home Page Photo"
+                height="200"
+                image="https://i.imgur.com/7vCQO4T.png"
+                title="Esunarosehealwell.com"
+              />
+              <CardContent className={classes.cardContent}>
+                <Accordion>
+                  <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
+                      Esunarosehealwell.com
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography
+                      gutterBottom
+                      className={classes.link}
+                      variant="body1"
+                      color="textSecondary"
+                      component="p"
+                    >
+                      My client's single-page website built with HTML, CSS, and Javascript. Deployed on the Vercel platform. 
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Grid container justify="space-around">
+                <Button
+                  className={classes.link}
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/mitchelnoble/esunarosehealwell"
+                    );
+                  }}
+                >
+                  Github
+                </Button>
+                <Button
+                  variant="outlined"
+                  className={classes.link}
+                  size="small"
+                  color="primary"
+                  onClick={() => {
+                    window.open("https://www.esunarosehealwell.com");
+                  }}
+                >
+                  Website
+                </Button>
+              </Grid>
+            </CardActions>
+          </Card>
+        </Grid>
+
         {/*Play Price PC*/}
-    
+
         <Grid item xs={10} md={3}>
           <Card className={classes.root}>
             <CardActionArea>
@@ -129,7 +260,12 @@ const Projects = () => {
               <CardContent className={classes.cardContent}>
                 <Accordion>
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
                       Play Price PC
                     </Typography>
                   </AccordionSummary>
@@ -197,7 +333,12 @@ const Projects = () => {
                     className={classes.accordion}
                     expandIcon={<ExpandMoreIcon />}
                   >
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
                       Get Lost
                     </Typography>
                   </AccordionSummary>
@@ -223,9 +364,7 @@ const Projects = () => {
                   size="small"
                   color="primary"
                   onClick={() => {
-                    window.open(
-                      "https://github.com/enewton3/get-lost"
-                    );
+                    window.open("https://github.com/enewton3/get-lost");
                   }}
                 >
                   Github
@@ -260,7 +399,12 @@ const Projects = () => {
               <CardContent className={classes.cardContent}>
                 <Accordion>
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                    <Typography gutterBottom variant="h5" component="h2" className={classes.root}>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="h2"
+                      className={classes.root}
+                    >
                       Protozoa Records
                     </Typography>
                   </AccordionSummary>
@@ -311,11 +455,11 @@ const Projects = () => {
           <Typography nogutter variant="h4" className={classes.root}>
             Ready to get to work?
           </Typography>
-        <Link to="contact" smooth={true} duration={500} offset={-73}>
-          <Button variant="outlined" className={classes.button}>
+          <Link to="contact" smooth={true} duration={500} offset={-73}>
+            <Button variant="outlined" className={classes.button}>
               Contact Me Here
-      </Button>
-            </Link>
+            </Button>
+          </Link>
         </Grid>
       </Grid>
     </div>
