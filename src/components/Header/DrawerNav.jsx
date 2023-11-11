@@ -201,7 +201,7 @@ export default function PersistentDrawerRight() {
             <ListItemText primary={'LinkedIn'} />
           </ListItem>
             <ListItem button key={'Resume'} onClick={() => {
-                    window.open("https://drive.google.com/file/d/0B6heteq-4PWfcjRCMUQ5SzZPMm9sS1Q5U0xweDQ1YjFwLXp3/view?usp=sharing&resourcekey=0-fv5xqJZqgKDCBNQi9p0dnw");
+                    window.open("https://drive.google.com/file/d/16MkPiwdHo16WBCBYtaW4bbWKqaOcjATC/view?usp=drive_link");
                   }}>
             <ListItemIcon><AttachFileIcon /></ListItemIcon>
             <ListItemText primary={'Resume'} />
