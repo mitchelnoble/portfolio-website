@@ -7,3 +7,10 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Galaxy Fold */
+@media only screen and (max-width: 281px) {
+  #landing {
+    height: 130vh;
+  }
+}

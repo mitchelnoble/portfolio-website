@@ -29,3 +29,9 @@
     height: 140vh;
   }
 }
+/* Galaxy Fold */
+@media only screen and (max-width: 281px) {
+  #about {
+    height: 190vh;
+  }
+}

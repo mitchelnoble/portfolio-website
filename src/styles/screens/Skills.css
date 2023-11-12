@@ -43,3 +43,9 @@ i {
     padding: 1em;
   }
 }
+/* Galaxy Fold */
+@media only screen and (max-width: 281px) {
+  #skills {
+    height: 230vh;
+  }
+}

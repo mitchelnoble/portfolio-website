@@ -30,11 +30,15 @@ export default function Landing() {
   return (
     <div id="landing">
       <Typography variant="h2" className={classes.title}>
-        Need a Software Engineer?
+        Mitchel Noble
         </Typography>
       <br />
+        <Typography variant="h5" className={classes.body}>
+          Software Engineer & Web Developer 
+      </Typography>
+      <br />
         <Typography variant="h4" className={classes.body}>
-          I'm Mitch, <br /> Let's make your next project awesome! 
+          Making your next project awesome! 
         </Typography>
         <Link to="skills" smooth={true} duration={500} offset={-73}>
       <Button variant="outlined" className={classes.button}>
