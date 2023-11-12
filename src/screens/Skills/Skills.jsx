@@ -40,7 +40,7 @@ export default function Skills() {
             HTML, CSS, and Javascript comprise the foundation of my programming
             knowledge. Brought together using the React.js framework and
             Material UI library, I am able to create a scalable, responsive
-            front-end for applications.
+            front-end for applications. This also includes integrating and customizing Wordpress themes.
           </Typography>
         </Grid>
 
@@ -75,7 +75,7 @@ export default function Skills() {
             <Typography variant="subtitle1" className={classes.body}>
               For version control and team collaboration, I have utilized the
               Github platform and Git in the console. All of my projects here
-              have been deployed on Heroku and/or Netlify.
+              have been deployed on Heroku, Netlify, Surge, or Vercel.
             </Typography>
           </Grid>
         </Grid>
