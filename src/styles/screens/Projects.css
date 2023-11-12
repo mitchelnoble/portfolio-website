@@ -34,14 +34,10 @@
     height: 280vh;
   }
 }
-@media only screen and (max-width: 913px) {
-  #projects {
-    height: 230vh;
-  }
-}
+
 @media only screen and (max-width: 541px) {
   #projects {
-    height: 340vh;
+    height: 310vh;
   }
 }
 /* iPhone XR */
@@ -53,7 +49,7 @@
 /* iPhone 12 Pro */
 @media only screen and (max-width: 415px) {
   #projects {
-    height: 280vh;
+    height: 290vh;
   }
 }
 /* iPhone SE */
