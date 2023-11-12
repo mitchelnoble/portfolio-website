@@ -194,7 +194,7 @@ const Projects = () => {
                   <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                     <Typography
                       gutterBottom
-                      variant="h5"
+                      variant="h6"
                       component="h2"
                       className={classes.root}
                     >
