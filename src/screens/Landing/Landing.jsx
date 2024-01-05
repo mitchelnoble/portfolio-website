@@ -29,15 +29,15 @@ export default function Landing() {
 
   return (
     <div id="landing">
-      <Typography variant="h2" className={classes.title}>
+      <Typography variant="h1" className={classes.title}>
         Mitchel Noble
         </Typography>
       <br />
         <Typography variant="h5" className={classes.body}>
           Software Engineer & Web Developer 
-      </Typography>
+        </Typography>
       <br />
-        <Typography variant="h4" className={classes.body}>
+        <Typography variant="h5" className={classes.body}>
           Making your next project awesome! 
         </Typography>
         <Link to="skills" smooth={true} duration={500} offset={-73}>
