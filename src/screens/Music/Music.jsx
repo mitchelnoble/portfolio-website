@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-scroll";
+import note from './eighthnote.png';
 
 const useStyles = makeStyles({
   button: {
@@ -36,6 +37,7 @@ export default function Music() {
 
   return (
     <div className="music-container" id="music">
+    <img src={note} alt="Music Notes" id="note1"/>
       
       <Typography variant="h2" className={classes.title}>
         Need Music?

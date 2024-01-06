@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+#note {
+  position: absolute;
+  top: -10;
+}
+
 @media only screen and (max-height: 800px) {
   #music {
     height: 130vh;

@@ -8,6 +8,25 @@
   justify-content: center;
 }
 
+#lights {
+  width: 35vw;
+  height: 110vh;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  opacity: 0.60;
+  filter: brightness(3.3);
+}
+
+#lines {
+  width: 75vw;
+  height: 10vh;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 12%;
+}
+
 /* Galaxy Fold */
 @media only screen and (max-width: 281px) {
   #landing {
