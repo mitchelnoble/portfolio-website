@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-@media only screen and (max-height: 960px) {
+/* @media only screen and (max-height: 960px) {
   #about {
     height: 130vh;
   }
@@ -28,10 +28,10 @@
   #about {
     height: 140vh;
   }
-}
+} */
 /* Galaxy Fold */
-@media only screen and (max-width: 281px) {
+/* @media only screen and (max-width: 281px) {
   #about {
     height: 190vh;
   }
-}
+} */
