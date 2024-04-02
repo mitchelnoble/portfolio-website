@@ -38,7 +38,7 @@ export default function Landing() {
         </Typography>
       <br />
         <Typography variant="h5" className={classes.body}>
-          Software Engineer & Web Developer 
+          Software Developer 
         </Typography>
       <br />
         <Typography variant="h5" className={classes.body}>
